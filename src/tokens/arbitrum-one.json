@@ -710,5 +710,14 @@
     "logoURI": "https://app.camelot.exchange/images/tokens/ifarm.svg",
     "decimals": 18,
     "quote": "other"
+  },
+  {
+    "chainId": 41234,
+    "symbol": "DMT",
+    "name": "DMT",
+    "address": "0x0Be47c0355306Aff6166A62B023Ae0b2bb85ECb0",
+    "logoURI": "https://app.camelot.exchange/images/tokens/dmt.png",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
