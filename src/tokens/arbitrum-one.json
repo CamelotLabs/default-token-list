@@ -726,7 +726,7 @@
     "name": "MOMO",
     "address": "0xAB88D66Bc82AC67b5a7eAa96B5FAC127D0DAAAAa",
     "logoURI": "https://arbiscan.io/token/images/imomo_32.png",
-    "decimals": 18,
+    "decimals": 6,
     "quote": "other"
   },
 ]
