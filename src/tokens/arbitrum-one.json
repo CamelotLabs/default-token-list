@@ -971,5 +971,14 @@
     "logoURI": "https://app.camelot.exchange/images/tokens/flr.svg",
     "decimals": 18,
     "quote": "derived_stable"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "esRDNT",
+    "name": "Radpie esRDNT",
+    "address": "0x1cC128a5d977B3BA7d598f01dB20A2116F59ef68",
+    "logoURI": "https://raw.githubusercontent.com/CamelotLabs/default-token-list/main/logos/esrdnt.svg",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
