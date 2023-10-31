@@ -1043,5 +1043,23 @@
     "logoURI": "BASE_URL/assets/mcb.png",
     "decimals": 18,
     "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "agEUR",
+    "name": "agEUR",
+    "address": "0xFA5Ed56A203466CbBC2430a43c66b9D8723528E7",
+    "logoURI": "BASE_URL/assets/ageur.svg",
+    "decimals": 18,
+    "quote": "derived_stable"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "stEUR",
+    "name": "Staked agEUR",
+    "address": "0x004626A008B1aCdC4c74ab51644093b155e59A23",
+    "logoURI": "BASE_URL/assets/steur.svg",
+    "decimals": 18,
+    "quote": "derived_stable"
   }
 ]
