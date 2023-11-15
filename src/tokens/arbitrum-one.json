@@ -1076,6 +1076,7 @@
     "symbol": "Y2K",
     "name": "Y2K",
     "address": "0x65c936f008BC34fE819bce9Fa5afD9dc2d49977f",
+    "logoURI": "BASE_URL/assets/y2k.png",
     "decimals": 18,
     "quote": "other"
   }
