@@ -999,7 +999,7 @@
     "decimals": 18,
     "quote": "other",
     "buyTax": 0,
-    "sellTax": 1000
+    "sellTax": 500
   },
   {
     "chainId": 42161,
@@ -1115,6 +1115,42 @@
     "name": "Alien Milady Fumo",
     "address": "0x48147eF2D24532279CA2221E6C1716e382d73A6c",
     "logoURI": "BASE_URL/assets/fumo.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "GOOD",
+    "name": "Good Entry",
+    "address": "0x17176a9868F321411B15CCb9b934Cf95597E89c4",
+    "logoURI": "BASE_URL/assets/good.jpg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "DF",
+    "name": "dForce",
+    "address": "0xaE6aab43C4f3E0cea4Ab83752C278f8dEbabA689",
+    "logoURI": "BASE_URL/assets/df.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "USX",
+    "name": "dForce USD",
+    "address": "0x641441c631e2F909700d2f41FD87F0aA6A6b4EDb",
+    "logoURI": "BASE_URL/assets/usx.svg",
+    "decimals": 18,
+    "quote": "derived_stable"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "YAK",
+    "name": "Yak Token",
+    "address": "0x7f4dB37D7bEb31F445307782Bc3Da0F18dF13696",
+    "logoURI": "BASE_URL/assets/yak.svg",
     "decimals": 18,
     "quote": "other"
   },
