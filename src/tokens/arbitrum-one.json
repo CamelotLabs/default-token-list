@@ -1173,16 +1173,16 @@
     "quote": "other"
   },
   {
-    "chainId": 421613,
-    "symbol": "aUSDC",
-    "name": "Axelar Wrapped aUSDC",
+    "chainId": 42161,
+    "symbol": "axlUSDC",
+    "name": "Axelar Wrapped USDC",
     "address": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
-    "logoURI": "BASE_URL/assets/aUSDC.svg",
+    "logoURI": "BASE_URL/assets/axlUSDC.svg",
     "decimals": 6,
     "quote": "derived_stable"
   },
   {
-    "chainId": 421613,
+    "chainId": 42161,
     "symbol": "AXL",
     "name": "Axelar",
     "address": "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f",
