@@ -1176,7 +1176,7 @@
     "chainId": 421613,
     "symbol": "aUSDC",
     "name": "Axelar Wrapped aUSDC",
-    "address": "0x254d06f33bDc5b8ee05b2ea472107E300226659A",
+    "address": "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
     "logoURI": "BASE_URL/assets/aUSDC.svg",
     "decimals": 6,
     "quote": "derived_stable"
