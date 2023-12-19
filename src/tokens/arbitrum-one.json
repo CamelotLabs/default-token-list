@@ -1150,7 +1150,7 @@
     "symbol": "YAK",
     "name": "Yak Token",
     "address": "0x7f4dB37D7bEb31F445307782Bc3Da0F18dF13696",
-    "logoURI": "BASE_URL/assets/yak.svg",
+    "logoURI": "BASE_URL/assets/yak.png",
     "decimals": 18,
     "quote": "other"
   },
@@ -1187,6 +1187,34 @@
     "name": "Axelar",
     "address": "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f",
     "logoURI": "BASE_URL/assets/axl.svg",
+    "decimals": 6,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "SFUND",
+    "name": "SeedifyFund",
+    "address": "0x560363BdA52BC6A44CA6C8c9B4a5FadbDa32fa60",
+    "logoURI": "BASE_URL/assets/sfund.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "xMOZ",
+    "name": "Mozaic escrowed token",
+    "address": "0x288734c9d9db21C5660B6b893F513cb04B6cD2d6",
+    "logoURI": "BASE_URL/assets/xmoz.png",
+    "decimals": 18,
+    "quote": "other",
+    "priceOf": "0x20547341E58fB558637FA15379C92e11F7b7F710"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "MOZ-LP",
+    "name": "Hercules Vault Token",
+    "address": "0x2e8751Fcd698B0A0704a04515667229e7843fa58",
+    "logoURI": "BASE_URL/assets/mozlp.png",
     "decimals": 6,
     "quote": "other"
   },
