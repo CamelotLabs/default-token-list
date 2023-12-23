@@ -43,6 +43,15 @@
   },
   {
     "chainId": 42161,
+    "symbol": "iGRAIL",
+    "name": "Grail Inu",
+    "address": "0x2eF354C71CaAb6dC7469bB3C99642878cCD1143F",
+    "logoURI": "BASE_URL/assets/igrail.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
     "symbol": "BFR",
     "name": "Buffer Token",
     "address": "0x1A5B0aaF478bf1FDA7b934c76E7692D722982a6D",
