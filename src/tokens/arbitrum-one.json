@@ -1442,5 +1442,14 @@
     "logoURI": "BASE_URL/assets/collab.svg",
     "decimals": 18,
     "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "APEX",
+    "name": "ApeX Token",
+    "address": "0x61A1ff55C5216b636a294A07D77C6F4Df10d3B56",
+    "logoURI": "BASE_URL/assets/apex.svg",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
