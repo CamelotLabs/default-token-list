@@ -1434,7 +1434,7 @@
   }, {
     "chainId": 42161,
     "symbol": "COIN.dw",
-    "name": "Wrapped Coinbase Global, Inc. Class A Common Stock - Dinari",
+    "name": "Wrapped COIN.d",
     "address": "0x407274ABb9241Da0A1889c1b8Ec65359dd9d316d",
     "logoURI": "BASE_URL/assets/coin.dw.svg",
     "decimals": 18,
