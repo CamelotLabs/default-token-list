@@ -1439,5 +1439,14 @@
     "logoURI": "BASE_URL/assets/coin.dw.svg",
     "decimals": 18,
     "quote": "other"
+  },  {
+    "chainId": 42161,
+    "symbol": "EMC",
+    "name": "EdgeMatrix Computing Network",
+    "address": "0xDFB8BE6F8c87f74295A87de951974362CedCFA30",
+    "logoURI": "BASE_URL/assets/emc.svg",
+    "decimals": 18,
+    "quote": "other",
+    "priceChartPair": "0xA1cb647629Aa2dec7a7971D749b4154D4c69BEC6"
   }
 ]
