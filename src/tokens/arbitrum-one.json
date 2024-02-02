@@ -1470,8 +1470,8 @@
   },
   {
     "chainId": 42161,
-    "symbol": "IPOR Token",
-    "name": "IPOR",
+    "symbol": "IPOR",
+    "name": "IPOR Token",
     "address": "0x34229B3f16fBCDfA8d8d9d17C0852F9496f4C7BB",
     "logoURI": "BASE_URL/assets/ipor.svg",
     "decimals": 18,
