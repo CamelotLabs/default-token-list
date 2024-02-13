@@ -1503,5 +1503,14 @@
     "logoURI": "BASE_URL/assets/rodeo++.svg",
     "decimals": 6,
     "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "KNJ",
+    "name": "Kunji Finance",
+    "address": "0xfbbb21d8e7A461f06e5E27efD69703aCB5C732A8",
+    "logoURI": "BASE_URL/assets/kunji.svg",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
