@@ -1,0 +1,23 @@
+[
+  {
+    "chainId": 421614,
+    "symbol": "WETH",
+    "name": "Wrapped ETH",
+    "address": "0x980B62Da83eFf3D4576C647993b0c1D7faf17c73",
+    "logoURI": "BASE_URL/assets/weth.svg",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 421614,
+    "symbol": "USDC",
+    "name": "USDC Sepolia",
+    "address": "0xb893E3334D4Bd6C5ba8277Fd559e99Ed683A9FC7",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 18,
+    "common": true,
+    "quote": "stable"
+  }
+]
