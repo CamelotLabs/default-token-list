@@ -1529,6 +1529,6 @@
     "address": "0x4AA81D7AB59C775fe6F9F45E6941A0FB8cD692a6",
     "logoURI": "BASE_URL/assets/milktia.png",
     "decimals": 6,
-    "quote": "derived_native"
+    "quote": "other"
   }
 ]
