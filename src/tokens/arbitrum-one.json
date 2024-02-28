@@ -1544,7 +1544,7 @@
     "chainId": 42161,
     "symbol": "wstLINK",
     "name": "Wrapped stLINK",
-    "address": "0x3106e2e148525b3db36795b04691d444c24972fb",
+    "address": "0x3106E2e148525b3DB36795b04691D444c24972fB",
     "logoURI": "BASE_URL/assets/wstlink.png",
     "decimals": 18,
     "quote": "other"
@@ -1553,7 +1553,7 @@
     "chainId": 42161,
     "symbol": "SDL",
     "name": "stake.link",
-    "address": "0xdfea35757264f5b6c0ff21104151d9f991d0eec0",
+    "address": "0xdFeA35757264F5b6C0ff21104151D9F991D0eEC0",
     "logoURI": "BASE_URL/assets/sdl.png",
     "decimals": 18,
     "quote": "other"
