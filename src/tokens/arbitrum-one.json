@@ -66,7 +66,8 @@
     "address": "0x1922C36F3bc762Ca300b4a46bB2102F84B1684aB",
     "logoURI": "BASE_URL/assets/cmumami.svg",
     "decimals": 9,
-    "quote": "other"
+    "quote": "other",
+    "intermediaryTokens": ["0x1622bF67e6e5747b81866fE0b85178a93C7F86e3"]
   },
   {
     "chainId": 42161,
@@ -371,7 +372,8 @@
     "address": "0xF236ea74B515eF96a9898F5a4ed4Aa591f253Ce1",
     "logoURI": "BASE_URL/assets/plsdpx.svg",
     "decimals": 18,
-    "quote": "other"
+    "quote": "other",
+    "intermediaryTokens": ["0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55"]
   },
   {
     "chainId": 42161,
@@ -977,7 +979,8 @@
     "address": "0x1cC128a5d977B3BA7d598f01dB20A2116F59ef68",
     "logoURI": "BASE_URL/assets/esrdnt.svg",
     "decimals": 18,
-    "quote": "other"
+    "quote": "other",
+    "intermediaryTokens": ["0x3082CC23568eA640225c2467653dB90e9250AaA0"]
   },
   {
     "chainId": 42161,
@@ -1060,7 +1063,8 @@
     "address": "0x004626A008B1aCdC4c74ab51644093b155e59A23",
     "logoURI": "BASE_URL/assets/steur.svg",
     "decimals": 18,
-    "quote": "derived_stable"
+    "quote": "derived_stable",
+    "intermediaryTokens":  ["0x004626A008B1aCdC4c74ab51644093b155e59A23"]
   },
   {
     "chainId": 42161,
@@ -1349,7 +1353,8 @@
     "address": "0xed7f000eE335B8199b004cCA1c6f36d188CF6cb8",
     "logoURI": "BASE_URL/assets/d2.jpg",
     "decimals": 18,
-    "quote": "other"
+    "quote": "other",
+    "intermediaryTokens": ["0x1c17a39B156189BF40905425170a3Ff62fb650DA"]
   },
   {
     "chainId": 42161,
@@ -1493,7 +1498,8 @@
     "address": "0x1c17a39B156189BF40905425170a3Ff62fb650DA",
     "logoURI": "BASE_URL/assets/xd2.svg",
     "decimals": 18,
-    "quote": "other"
+    "quote": "other",
+    "intermediaryTokens": ["0xed7f000eE335B8199b004cCA1c6f36d188CF6cb8"]
   },
   {
     "chainId": 42161,
@@ -1547,7 +1553,8 @@
     "address": "0x3106E2e148525b3DB36795b04691D444c24972fB",
     "logoURI": "BASE_URL/assets/wstlink.png",
     "decimals": 18,
-    "quote": "other"
+    "quote": "other",
+    "intermediaryTokens": ["0xf97f4df75117a78c1A5a0DBb814Af92458539FB4"]
   },
   {
     "chainId": 42161,
@@ -1566,6 +1573,15 @@
     "logoURI": "BASE_URL/assets/ezeth.png",
     "decimals": 18,
     "quote": "derived_native"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "ALGB",
+    "name": "Algebra",
+    "address": "0x9F018bDA8f6B507a0C9e6f290B2F7c49C2F8daf8",
+    "logoURI": "BASE_URL/assets/algb.png",
+    "decimals": 18,
+    "quote": "other"
   },
   {
     "chainId": 42161,
