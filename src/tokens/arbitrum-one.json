@@ -965,8 +965,8 @@
   },
   {
     "chainId": 42161,
-    "symbol": "FLR",
-    "name": "Florin",
+    "symbol": "flrEUR",
+    "name": "Florence Finance flrEUR",
     "address": "0x9B6226dd0191a77d032F56A6d383044EE99944C3",
     "logoURI": "BASE_URL/assets/flr.svg",
     "decimals": 18,
