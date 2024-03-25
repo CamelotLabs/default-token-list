@@ -1494,6 +1494,33 @@
     "decimals": 18,
     "quote": "other"
   },
+    {
+    "chainId": 42161,
+    "symbol": "wTIA",
+    "name": "Wrapped TIA",
+    "address": "0x1bE526dADe4C27B145E40D5bbbB0730E397e780e",
+    "logoURI": "BASE_URL/assets/wTIA.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+    {
+    "chainId": 42161,
+    "symbol": "ARB++",
+    "name": "ARB++",
+    "address": "0x291344FBaaC4fE14632061E4c336Fe3B94c52320",
+    "logoURI": "BASE_URL/assets/arb++.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+    {
+    "chainId": 42161,
+    "symbol": "ETHx",
+    "name": "ETHx",
+    "address": "0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7",
+    "logoURI": "BASE_URL/assets/ethx.png",
+    "decimals": 18,
+    "quote": "other"
+  },
   {
     "chainId": 42161,
     "symbol": "RDDT.dw",
