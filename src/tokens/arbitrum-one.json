@@ -1538,5 +1538,14 @@
     "logoURI": "BASE_URL/assets/tia.png",
     "decimals": 6,
     "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "ePendle",
+    "name": "Equilibria Pendle",
+    "address": "0x3EaBE18eAE267D1B57f917aBa085bb5906114600",
+    "logoURI": "BASE_URL/assets/ependle.png",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
