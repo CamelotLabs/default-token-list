@@ -1499,7 +1499,7 @@
     "symbol": "wTIA",
     "name": "Wrapped TIA",
     "address": "0x1bE526dADe4C27B145E40D5bbbB0730E397e780e",
-    "logoURI": "BASE_URL/assets/wTIA.svg",
+    "logoURI": "BASE_URL/assets/tia.png",
     "decimals": 18,
     "quote": "other"
   },
@@ -1518,6 +1518,42 @@
     "name": "ETHx",
     "address": "0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7",
     "logoURI": "BASE_URL/assets/ethx.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "FLY",
+    "name": "Fluidity",
+    "address": "0x000F1720A263f96532D1ac2bb9CDC12b72C6f386",
+    "logoURI": "BASE_URL/assets/fly.png",
+    "decimals": 6,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "USDe",
+    "name": "USDe",
+    "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "logoURI": "BASE_URL/assets/usde.svg",
+    "decimals": 18,
+    "quote": "stable"
+  },
+    {
+    "chainId": 42161,
+    "symbol": "TIA.n",
+    "name": "TIA.n",
+    "address": "0xD56734d7f9979dD94FAE3d67C7e928234e71cD4C",
+    "logoURI": "BASE_URL/assets/tia.png",
+    "decimals": 6,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "ePendle",
+    "name": "Equilibria Pendle",
+    "address": "0x3EaBE18eAE267D1B57f917aBa085bb5906114600",
+    "logoURI": "BASE_URL/assets/ependle.png",
     "decimals": 18,
     "quote": "other"
   },
