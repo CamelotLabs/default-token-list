@@ -910,7 +910,7 @@
     "logoURI": "BASE_URL/assets/steur.svg",
     "decimals": 18,
     "quote": "derived_stable",
-    "intermediaryTokens":  ["0x004626A008B1aCdC4c74ab51644093b155e59A23"]
+    "intermediaryTokens": ["0x004626A008B1aCdC4c74ab51644093b155e59A23"]
   },
   {
     "chainId": 42161,
@@ -1494,7 +1494,7 @@
     "decimals": 18,
     "quote": "other"
   },
-    {
+  {
     "chainId": 42161,
     "symbol": "wTIA",
     "name": "Wrapped TIA",
@@ -1503,7 +1503,7 @@
     "decimals": 18,
     "quote": "other"
   },
-    {
+  {
     "chainId": 42161,
     "symbol": "ARB++",
     "name": "ARB++",
@@ -1512,7 +1512,7 @@
     "decimals": 18,
     "quote": "other"
   },
-    {
+  {
     "chainId": 42161,
     "symbol": "ETHx",
     "name": "ETHx",
@@ -1539,7 +1539,7 @@
     "decimals": 18,
     "quote": "stable"
   },
-    {
+  {
     "chainId": 42161,
     "symbol": "TIA.n",
     "name": "TIA.n",
@@ -1554,6 +1554,15 @@
     "name": "Equilibria Pendle",
     "address": "0x3EaBE18eAE267D1B57f917aBa085bb5906114600",
     "logoURI": "BASE_URL/assets/ependle.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "SYK",
+    "name": "Stryke Token",
+    "address": "0xACC51FFDeF63fB0c014c882267C3A17261A5eD50",
+    "logoURI": "BASE_URL/assets/syk.svg",
     "decimals": 18,
     "quote": "other"
   }
