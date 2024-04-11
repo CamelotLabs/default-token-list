@@ -936,6 +936,15 @@
   },
   {
     "chainId": 42161,
+    "symbol": "POD",
+    "name": "POD",
+    "address": "0x8ed02b221839118b660551dce5b558d959d5a0bf",
+    "logoURI": "BASE_URL/assets/pod.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
     "symbol": "gOHM",
     "name": "Governance OHM",
     "address": "0x8D9bA570D6cb60C7e3e0F31343Efe75AB8E65FB1",
