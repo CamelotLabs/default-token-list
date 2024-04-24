@@ -65,6 +65,16 @@
   },
   {
     "chainId": 42161,
+    "symbol": "Bonsai",
+    "name": "Bonsai",
+    "address": "0x79EaD7a012D97eD8DeEcE279f9bC39e264d7Eef9",
+    "logoURI": "BASE_URL/assets/bonsai.png",
+    "decimals": 18,
+    "quote": "native",
+    "excludeFromExchange": true
+  },
+  {
+    "chainId": 42161,
     "symbol": "cmUMAMI",
     "name": "Compounded Marinated UMAMI",
     "address": "0x1922C36F3bc762Ca300b4a46bB2102F84B1684aB",
