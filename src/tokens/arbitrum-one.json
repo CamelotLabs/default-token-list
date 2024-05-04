@@ -1645,7 +1645,7 @@
     "chainId": 42161,
     "symbol": "rgUSD",
     "name": "Revenue Generating USD",
-    "address": "0x96a993f06951b01430523d0d5590192d650ebf3e",
+    "address": "0x96a993f06951B01430523D0D5590192d650EBf3e",
     "logoURI": "BASE_URL/assets/rgusd-256.png",
     "decimals": 18,
     "quote": "derived_stable"
