@@ -1635,7 +1635,7 @@
   {
     "chainId": 42161,
     "symbol": "ETH+",
-    "name": "Electronic Dollar",
+    "name": "ETHPlus",
     "address": "0x18C14C2D707b2212e17d1579789Fc06010cfca23",
     "logoURI": "BASE_URL/assets/eth+-256.png",
     "decimals": 18,
