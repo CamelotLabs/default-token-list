@@ -1657,5 +1657,14 @@
     "logoURI": "BASE_URL/assets/knox.png",
     "decimals": 18,
     "quote": "derived_stable"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "CU",
+    "name": "Crypto Unicorns",
+    "address": "0x89C49A3fA372920aC23ce757A029e6936c0b8e02",
+    "logoURI": "BASE_URL/assets/cu.png",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
