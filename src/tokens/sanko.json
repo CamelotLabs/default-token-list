@@ -39,17 +39,6 @@
     "address": "0x9c2730eA529c70E901fbDaf3e15E110CA8701C61",
     "logoURI": "BASE_URL/assets/stanko.png",
     "decimals": 18,
-    "common": true,
-    "quote": "other"
-  },
-  {
-    "chainId": 1996,
-    "symbol": "SMOKE",
-    "name": "smoke the ticker",
-    "address": "0xe78A3857593083dD6e1F7859e1B711401FC6f2cc",
-    "logoURI": "BASE_URL/assets/smoke.png",
-    "decimals": 18,
-    "common": true,
     "quote": "other"
   },
   {
@@ -59,17 +48,6 @@
     "address": "0x3C84f959f4b8ca0c39847d02f936e13Fa8fC4Eb9",
     "logoURI": "BASE_URL/assets/star.png",
     "decimals": 18,
-    "common": true,
-    "quote": "other"
-  },
-  {
-    "chainId": 1996,
-    "symbol": "WONY",
-    "name": "WONYCOIN",
-    "address": "0x8D18F820d0bD4cE93550EcB9a69763E585713E1d",
-    "logoURI": "BASE_URL/assets/wony.png",
-    "decimals": 6,
-    "common": true,
     "quote": "other"
   },
   {
@@ -79,7 +57,6 @@
     "address": "0x619Ef22392A549C9638D170db8C985fD147fAC98",
     "logoURI": "BASE_URL/assets/eugene.png",
     "decimals": 18,
-    "common": true,
     "quote": "other"
   }
 ]
