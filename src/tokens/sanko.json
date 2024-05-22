@@ -67,5 +67,14 @@
     "logoURI": "BASE_URL/assets/wony.png",
     "decimals": 6,
     "quote": "other"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "GOLD",
+    "name": "Sanko Gold",
+    "address": "0x6F5e2d3b8c5C5c5F9bcB4adCF40b13308e688D4D",
+    "logoURI": "BASE_URL/assets/sankogold.png",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
