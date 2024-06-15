@@ -112,5 +112,14 @@
     "logoURI": "BASE_URL/assets/lsd.png",
     "decimals": 18,
     "quote": "other"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "TOOB",
+    "name": "toob",
+    "address": "0xaD8953fDf0cD3BA91b9Cfe4D188e7D8d6faadd2A",
+    "logoURI": "BASE_URL/assets/toob.png",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
