@@ -1706,5 +1706,14 @@
     "logoURI": "BASE_URL/assets/aark.png",
     "decimals": 18,
     "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "MOLTEN",
+    "name": "Molten",
+    "address": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
+    "logoURI": "BASE_URL/assets/molten.png",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
