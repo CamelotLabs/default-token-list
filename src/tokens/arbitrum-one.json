@@ -1737,7 +1737,7 @@
   {
     "chainId": 42161,
     "symbol": "USD+",
-    "name": "USD+",
+    "name": "Dinari USD+",
     "address": "0xfc90518D5136585ba45e34ED5E1D108BD3950CFa",
     "logoURI": "BASE_URL/assets/usd+.svg",
     "decimals": 6,
