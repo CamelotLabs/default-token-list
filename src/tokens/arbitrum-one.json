@@ -1769,5 +1769,14 @@
     "logoURI": "BASE_URL/assets/ethfi.svg",
     "decimals": 18,
     "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "WEAVE",
+    "name": "Weave",
+    "address": "0xcC0Abb65c344639Ee78D76cd507027e5C1bb8135",
+    "logoURI": "BASE_URL/assets/weave.png",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
