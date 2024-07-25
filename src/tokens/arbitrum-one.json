@@ -1769,5 +1769,15 @@
     "logoURI": "BASE_URL/assets/ethfi.svg",
     "decimals": 18,
     "quote": "other"
+  },
+ {
+    "chainId": 42161,
+    "symbol": "HAT",
+    "name": "HATs Finance token",
+    "address": "0x4D22e37Eb4d71D1acc5f4889a65936D2a44A2f15",
+    "logoURI": "BASE_URL/assets/hats.svg",
+    "decimals": 18,
+    "quote": "other"
   }
+]
 ]
