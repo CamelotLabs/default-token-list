@@ -43,6 +43,7 @@ To directly submit the integration of your token to Camelot's default token list
 - excludeFromExchange (boolean): to exclude your token from the swap and liquidity list modal, only for illiquid assets that still need to be listed on the app
 - priceChartPair (string): address, to force a specific asset to be paired with this token on the swap page chart
 - priceOf (string): address, use the price of a different asset to estimate the USD value of your token, only for illiquid assets
+- intermediaryTokens (array): array of addresses, add as a trusted intermediary tokens in Camelot's native router's quoted paths
 
 ### Disclaimer
 

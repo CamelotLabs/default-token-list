@@ -7,6 +7,7 @@
     "logoURI": "BASE_URL/assets/weth.svg",
     "decimals": 18,
     "isWNative": true,
+    "defaultSwapInput": true,
     "quote": "native",
     "priceChartPair": "0xb7dd20f3fbf4db42fd85c839ac0241d09f72955f"
   },
@@ -18,6 +19,7 @@
     "logoURI": "BASE_URL/assets/grail.svg",
     "decimals": 18,
     "common": true,
+    "defaultSwapOutput": true,
     "quote": "other"
   },
   {
@@ -48,7 +50,9 @@
     "address": "0x2eF354C71CaAb6dC7469bB3C99642878cCD1143F",
     "logoURI": "BASE_URL/assets/igrail.png",
     "decimals": 18,
-    "quote": "other"
+    "quote": "other",
+    "buyTax": 700,
+    "sellTax": 700
   },
   {
     "chainId": 42161,
@@ -61,12 +65,22 @@
   },
   {
     "chainId": 42161,
+    "symbol": "Bonsai",
+    "name": "Bonsai",
+    "address": "0x79EaD7a012D97eD8DeEcE279f9bC39e264d7Eef9",
+    "logoURI": "BASE_URL/assets/bonsai.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
     "symbol": "cmUMAMI",
     "name": "Compounded Marinated UMAMI",
     "address": "0x1922C36F3bc762Ca300b4a46bB2102F84B1684aB",
     "logoURI": "BASE_URL/assets/cmumami.svg",
     "decimals": 9,
-    "quote": "other"
+    "quote": "other",
+    "intermediaryTokens": ["0x1622bF67e6e5747b81866fE0b85178a93C7F86e3"]
   },
   {
     "chainId": 42161,
@@ -85,15 +99,6 @@
     "logoURI": "BASE_URL/assets/gmx.svg",
     "decimals": 18,
     "common": true,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "GMD",
-    "name": "GMD",
-    "address": "0x4945970EfeEc98D393b4b979b9bE265A3aE28A8B",
-    "logoURI": "BASE_URL/assets/gmd.jpg",
-    "decimals": 18,
     "quote": "other"
   },
   {
@@ -239,15 +244,6 @@
   },
   {
     "chainId": 42161,
-    "symbol": "OATH",
-    "name": "Oath Token",
-    "address": "0xa1150db5105987CEC5Fd092273d1e3cbb22b378b",
-    "logoURI": "BASE_URL/assets/oath.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
     "symbol": "MOD",
     "name": "Modular",
     "address": "0x244Ae62439C1Ef3187f244d8604ac2c391eF2b53",
@@ -261,24 +257,6 @@
     "name": "Hop",
     "address": "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC",
     "logoURI": "BASE_URL/assets/hop.jpg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "TAROT-OLD",
-    "name": "Tarot (deprecated)",
-    "address": "0x6688b00f0c23a4a546BEaAE51a7c90C439895D48",
-    "logoURI": "BASE_URL/assets/tarot.png",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "TAROT",
-    "name": "Tarot",
-    "address": "0x13278cD824D33A7aDB9f0a9A84ACA7C0D2DEEBf7",
-    "logoURI": "BASE_URL/assets/tarot.png",
     "decimals": 18,
     "quote": "other"
   },
@@ -371,7 +349,8 @@
     "address": "0xF236ea74B515eF96a9898F5a4ed4Aa591f253Ce1",
     "logoURI": "BASE_URL/assets/plsdpx.svg",
     "decimals": 18,
-    "quote": "other"
+    "quote": "other",
+    "intermediaryTokens": ["0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55"]
   },
   {
     "chainId": 42161,
@@ -411,8 +390,8 @@
   },
   {
     "chainId": 42161,
-    "symbol": "GENE",
-    "name": "GenomesDAO",
+    "symbol": "OLD-GENE",
+    "name": "GenomesDAO (deprecated)",
     "address": "0x59A729658e9245B0cF1f8Cb9fb37945D2B06ea27",
     "logoURI": "BASE_URL/assets/gene.svg",
     "decimals": 18,
@@ -420,8 +399,8 @@
   },
   {
     "chainId": 42161,
-    "symbol": "GNOME",
-    "name": "GenomesDAO Governance",
+    "symbol": "OLD-GNOME",
+    "name": "GenomesDAO Governance (deprecated)",
     "address": "0x7698Ac5D15bb3Ba7185adCBff32A80ebD9d0709B",
     "logoURI": "BASE_URL/assets/gnome.svg",
     "decimals": 18,
@@ -467,30 +446,12 @@
   },
   {
     "chainId": 42161,
-    "symbol": "LOTTO",
-    "name": "LOTTO",
-    "address": "0x4A35cA865aBEc4205430081ccDF768610e06BfbC",
-    "logoURI": "BASE_URL/assets/lotto.png",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
     "symbol": "fUSDC",
     "name": "Fluid USDC",
     "address": "0x4CFA50B7Ce747e2D61724fcAc57f24B748FF2b2A",
     "logoURI": "BASE_URL/assets/fusdc.png",
     "decimals": 6,
     "quote": "derived_stable"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "ACID",
-    "name": "Acid",
-    "address": "0x29C1EA5ED7af53094b1a79eF60d20641987c867e",
-    "logoURI": "BASE_URL/assets/acid.svg",
-    "decimals": 9,
-    "quote": "other"
   },
   {
     "chainId": 42161,
@@ -530,41 +491,12 @@
   },
   {
     "chainId": 42161,
-    "symbol": "stafi-rETH",
-    "name": "StaFi rETH",
-    "address": "0x6CDA1D3D092811b2d48F7476adb59A6239CA9b95",
-    "logoURI": "BASE_URL/assets/stafi-reth.svg",
-    "decimals": 18,
-    "quote": "derived_native"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "FIS",
-    "name": "StaFi",
-    "address": "0x849B40AB2469309117Ed1038c5A99894767C7282",
-    "logoURI": "BASE_URL/assets/fis.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
     "symbol": "SECT",
     "name": "Sector",
     "address": "0x0B63C61bba4a876a6eB8b5e596800F7649A9B71E",
     "logoURI": "BASE_URL/assets/sector.svg",
     "decimals": 18,
     "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "lveSECT",
-    "name": "liquid veSECT",
-    "address": "0xf4A90562549b68f59050FE89E725CA8c257b3056",
-    "logoURI": "BASE_URL/assets/sector.svg",
-    "decimals": 18,
-    "quote": "other",
-    "excludeFromExchange": true,
-    "priceOf": "0x0B63C61bba4a876a6eB8b5e596800F7649A9B71E"
   },
   {
     "chainId": 42161,
@@ -631,22 +563,14 @@
   },
   {
     "chainId": 42161,
-    "symbol": "esLEX",
-    "name": "Escrowed LEX",
-    "address": "0x6fF4F66c85a05d9dA61646fEb725E2136cBB60B6",
-    "logoURI": "BASE_URL/assets/lex.svg",
-    "decimals": 18,
-    "quote": "other",
-    "priceOf": "0x6bB7A17AcC227fd1F6781D1EEDEAE01B42047eE0"
-  },
-  {
-    "chainId": 42161,
     "symbol": "AIDOGE",
     "name": "AIDOGE",
     "address": "0x09E18590E8f76b6Cf471b3cd75fE1A1a9D2B2c2b",
     "logoURI": "BASE_URL/assets/aidoge.svg",
     "decimals": 6,
-    "quote": "other"
+    "quote": "other",
+    "buyTax": 800,
+    "sellTax": 800
   },
   {
     "chainId": 42161,
@@ -655,25 +579,9 @@
     "address": "0x7C8a1A80FDd00C9Cccd6EbD573E9EcB49BFa2a59",
     "logoURI": "BASE_URL/assets/aicode.svg",
     "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "STRD",
-    "name": "Stride",
-    "address": "0x05931D5e2F7E1C1A710c9c1dCdD94e413652376F",
-    "logoURI": "BASE_URL/assets/strd.svg",
-    "decimals": 6,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "stATOM",
-    "name": "Stride Staked Atom",
-    "address": "0x7ba861c07d40e3341B901Fd6F418e96E0132E25b",
-    "logoURI": "BASE_URL/assets/statom.svg",
-    "decimals": 6,
-    "quote": "other"
+    "quote": "other",
+    "buyTax": 800,
+    "sellTax": 800
   },
   {
     "chainId": 42161,
@@ -682,15 +590,6 @@
     "address": "0xe7f6C3c1F0018E4C08aCC52965e5cbfF99e34A44",
     "logoURI": "BASE_URL/assets/plsjones.svg",
     "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "axlSOMM",
-    "name": "Axelar Wrapped SOMM",
-    "address": "0x4e914bbDCDE0f455A8aC9d59d3bF739c46287Ed2",
-    "logoURI": "BASE_URL/assets/somm.png",
-    "decimals": 6,
     "quote": "other"
   },
   {
@@ -782,17 +681,6 @@
     "logoURI": "BASE_URL/assets/pnp.jpg",
     "decimals": 18,
     "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "rPNP",
-    "name": "Vested PNP receipt",
-    "address": "0x279427dF97B34Da65D96E92efDD2b961085356af",
-    "logoURI": "BASE_URL/assets/pnp.jpg",
-    "decimals": 18,
-    "quote": "other",
-    "excludeFromExchange": true,
-    "priceOf": "0x2Ac2B254Bc18cD4999f64773a966E4f4869c34Ee"
   },
   {
     "chainId": 42161,
@@ -889,15 +777,6 @@
   },
   {
     "chainId": 42161,
-    "symbol": "PGS",
-    "name": "PegasusBot",
-    "address": "0x8933fEDD98Cbb482e27C41e1bD7216a4e42eBd39",
-    "logoURI": "BASE_URL/assets/pgs.png",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
     "symbol": "TST",
     "name": "Standard Token",
     "address": "0xf5A27E55C748bCDdBfeA5477CB9Ae924f0f7fd2e",
@@ -934,17 +813,6 @@
   },
   {
     "chainId": 42161,
-    "symbol": "xGMBL",
-    "name": "GMBL escrowed token",
-    "address": "0x911a05E03B6C70bb55090e2D2B2186042F81287D",
-    "logoURI": "BASE_URL/assets/xgmbl.png",
-    "decimals": 18,
-    "quote": "other",
-    "excludeFromExchange": true,
-    "priceOf": "0xE9A5aF50874c0ef2748b5DB70104B5ccb5557f6d"
-  },
-  {
-    "chainId": 42161,
     "symbol": "MOZ",
     "name": "Mozaic Token",
     "address": "0x20547341E58fB558637FA15379C92e11F7b7F710",
@@ -954,17 +822,8 @@
   },
   {
     "chainId": 42161,
-    "symbol": "CONE",
-    "name": "CONE",
-    "address": "0xD3934a2e428e31ffC14B1F69B0BEc79Db3e0C614",
-    "logoURI": "BASE_URL/assets/cone.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "FLR",
-    "name": "Florin",
+    "symbol": "flrEUR",
+    "name": "Florence Finance flrEUR",
     "address": "0x9B6226dd0191a77d032F56A6d383044EE99944C3",
     "logoURI": "BASE_URL/assets/flr.svg",
     "decimals": 18,
@@ -977,7 +836,8 @@
     "address": "0x1cC128a5d977B3BA7d598f01dB20A2116F59ef68",
     "logoURI": "BASE_URL/assets/esrdnt.svg",
     "decimals": 18,
-    "quote": "other"
+    "quote": "other",
+    "intermediaryTokens": ["0x3082CC23568eA640225c2467653dB90e9250AaA0"]
   },
   {
     "chainId": 42161,
@@ -1060,7 +920,8 @@
     "address": "0x004626A008B1aCdC4c74ab51644093b155e59A23",
     "logoURI": "BASE_URL/assets/steur.svg",
     "decimals": 18,
-    "quote": "derived_stable"
+    "quote": "derived_stable",
+    "intermediaryTokens": ["0x004626A008B1aCdC4c74ab51644093b155e59A23"]
   },
   {
     "chainId": 42161,
@@ -1069,7 +930,9 @@
     "address": "0x154388a4650D63acC823e06Ef9e47C1eDdD3cBb2",
     "logoURI": "BASE_URL/assets/sen.png",
     "decimals": 18,
-    "quote": "other"
+    "quote": "other",
+    "buyTax": 500,
+    "sellTax": 500
   },
   {
     "chainId": 42161,
@@ -1104,15 +967,6 @@
     "name": "Pepe",
     "address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00",
     "logoURI": "BASE_URL/assets/pepe.jpg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
-    "symbol": "FUMO",
-    "name": "Alien Milady Fumo",
-    "address": "0x48147eF2D24532279CA2221E6C1716e382d73A6c",
-    "logoURI": "BASE_URL/assets/fumo.png",
     "decimals": 18,
     "quote": "other"
   },
@@ -1349,6 +1203,16 @@
     "address": "0xed7f000eE335B8199b004cCA1c6f36d188CF6cb8",
     "logoURI": "BASE_URL/assets/d2.jpg",
     "decimals": 18,
+    "quote": "other",
+    "intermediaryTokens": ["0x1c17a39B156189BF40905425170a3Ff62fb650DA"]
+  },
+  {
+    "chainId": 42161,
+    "symbol": "SVY",
+    "name": "Savvy",
+    "address": "0x43aB8f7d2A8Dd4102cCEA6b438F6d747b1B9F034",
+    "logoURI": "BASE_URL/assets/svy.png",
+    "decimals": 18,
     "quote": "other"
   },
   {
@@ -1431,7 +1295,8 @@
     "logoURI": "BASE_URL/assets/apex.svg",
     "decimals": 18,
     "quote": "other"
-  }, {
+  },
+  {
     "chainId": 42161,
     "symbol": "COIN.dw",
     "name": "Wrapped COIN.d",
@@ -1439,14 +1304,481 @@
     "logoURI": "BASE_URL/assets/coin.dw.svg",
     "decimals": 18,
     "quote": "other"
-  },  {
+  },
+  {
+    "chainId": 42161,
+    "symbol": "OPUL",
+    "name": "OpulousToken",
+    "address": "0x0c5fa0E07949F941A6c2C29a008252db1527d6EE",
+    "logoURI": "BASE_URL/assets/opul.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "OVAULT",
+    "name": "OVAULT",
+    "address": "0x6a214298e6F8605F6aB52913E4fC4A02Ce66D33A",
+    "logoURI": "BASE_URL/assets/ovault.png",
+    "decimals": 6,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "IPOR",
+    "name": "IPOR Token",
+    "address": "0x34229B3f16fBCDfA8d8d9d17C0852F9496f4C7BB",
+    "logoURI": "BASE_URL/assets/ipor.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "xD2",
+    "name": "xD2",
+    "address": "0x1c17a39B156189BF40905425170a3Ff62fb650DA",
+    "logoURI": "BASE_URL/assets/xd2.svg",
+    "decimals": 18,
+    "quote": "other",
+    "intermediaryTokens": ["0xed7f000eE335B8199b004cCA1c6f36d188CF6cb8"]
+  },
+  {
+    "chainId": 42161,
+    "symbol": "RODEO++",
+    "name": "RODEO++",
+    "address": "0xeEe6E115Cb08Ac280Fc55642A61d8aDFba85Dfed",
+    "logoURI": "BASE_URL/assets/rodeo++.svg",
+    "decimals": 6,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "GG",
+    "name": "GG",
+    "address": "0x000000000026839b3f4181f2cF69336af6153b99",
+    "logoURI": "BASE_URL/assets/gg.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "rsETH",
+    "name": "KelpDao Restaked ETH",
+    "address": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+    "logoURI": "BASE_URL/assets/rseth.png",
+    "decimals": 18,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "milkTIA",
+    "name": "Milkyway Staked TIA",
+    "address": "0x4AA81D7AB59C775fe6F9F45E6941A0FB8cD692a6",
+    "logoURI": "BASE_URL/assets/milktia.png",
+    "decimals": 6,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "TRADE",
+    "name": "Polytrade",
+    "address": "0xE22c452bd2AdE15DfC8ad98286bc6bDF0c9219b7",
+    "logoURI": "BASE_URL/assets/trade.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "wstLINK",
+    "name": "Wrapped stLINK",
+    "address": "0x3106E2e148525b3DB36795b04691D444c24972fB",
+    "logoURI": "BASE_URL/assets/wstlink.png",
+    "decimals": 18,
+    "quote": "other",
+    "intermediaryTokens": ["0xf97f4df75117a78c1A5a0DBb814Af92458539FB4"]
+  },
+  {
+    "chainId": 42161,
+    "symbol": "SDL",
+    "name": "stake.link",
+    "address": "0xdFeA35757264F5b6C0ff21104151D9F991D0eEC0",
+    "logoURI": "BASE_URL/assets/sdl.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "ezETH",
+    "name": "Renzo Restaked ETH",
+    "address": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "logoURI": "BASE_URL/assets/ezeth.png",
+    "decimals": 18,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "ALGB",
+    "name": "Algebra",
+    "address": "0x9F018bDA8f6B507a0C9e6f290B2F7c49C2F8daf8",
+    "logoURI": "BASE_URL/assets/algb.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "PEAS",
+    "name": "Peapods",
+    "address": "0x02f92800F57BCD74066F5709F1Daa1A4302Df875",
+    "logoURI": "BASE_URL/assets/peas.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "OHM",
+    "name": "Olympus",
+    "address": "0xf0cb2dc0db5e6c66B9a70Ac27B06b878da017028",
+    "logoURI": "BASE_URL/assets/ohm.png",
+    "decimals": 9,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "pxETH",
+    "name": "Pirex Ether",
+    "address": "0x300d2c875C6fb8Ce4bf5480B4d34b7c9ea8a33A4",
+    "logoURI": "BASE_URL/assets/pxeth.png",
+    "decimals": 18,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "apxETH",
+    "name": "Autocompounding Pirex Ether",
+    "address": "0x16Ed8E219cde31E14a80dCb6C9127A5EC6e88e46",
+    "logoURI": "BASE_URL/assets/apxeth.png",
+    "decimals": 18,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "TBANK",
+    "name": "Taobank",
+    "address": "0x05cBeF357CB14F9861C01F90AC7d5C90CE0ef05e",
+    "logoURI": "BASE_URL/assets/tbank.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "taoUSD",
+    "name": "taoUSD",
+    "address": "0x966570A84709D693463CDD69dCadb0121b2C9d26",
+    "logoURI": "BASE_URL/assets/taousd.png",
+    "decimals": 18,
+    "quote": "stable"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "MOON",
+    "name": "Moons",
+    "address": "0x24404DC041d74cd03cFE28855F555559390C931b",
+    "logoURI": "BASE_URL/assets/moons.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "LOCUS",
+    "name": "Locus Token",
+    "address": "0xe1d3495717f9534Db67A6A8d4940Dd17435b6A9E",
+    "logoURI": "BASE_URL/assets/locus.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "wTIA",
+    "name": "Wrapped TIA",
+    "address": "0x1bE526dADe4C27B145E40D5bbbB0730E397e780e",
+    "logoURI": "BASE_URL/assets/tia.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "ARB++",
+    "name": "ARB++",
+    "address": "0x291344FBaaC4fE14632061E4c336Fe3B94c52320",
+    "logoURI": "BASE_URL/assets/arb++.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "ETHx",
+    "name": "ETHx",
+    "address": "0xED65C5085a18Fa160Af0313E60dcc7905E944Dc7",
+    "logoURI": "BASE_URL/assets/ethx.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "FLY",
+    "name": "Fluidity",
+    "address": "0x000F1720A263f96532D1ac2bb9CDC12b72C6f386",
+    "logoURI": "BASE_URL/assets/fly.png",
+    "decimals": 6,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "USDe",
+    "name": "USDe",
+    "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "logoURI": "BASE_URL/assets/usde.svg",
+    "decimals": 18,
+    "quote": "derived_stable"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "TIA.n",
+    "name": "TIA.n",
+    "address": "0xD56734d7f9979dD94FAE3d67C7e928234e71cD4C",
+    "logoURI": "BASE_URL/assets/tia.png",
+    "decimals": 6,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "ePendle",
+    "name": "Equilibria Pendle",
+    "address": "0x3EaBE18eAE267D1B57f917aBa085bb5906114600",
+    "logoURI": "BASE_URL/assets/ependle.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "SYK",
+    "name": "Stryke Token",
+    "address": "0xACC51FFDeF63fB0c014c882267C3A17261A5eD50",
+    "logoURI": "BASE_URL/assets/syk.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "xSYK",
+    "name": "XStrykeToken",
+    "address": "0x50E04E222Fc1be96E94E86AcF1136cB0E97E1d40",
+    "logoURI": "BASE_URL/assets/xsyk.svg",
+    "decimals": 18,
+    "quote": "other",
+    "excludeFromExchange": true,
+    "priceOf": "0xACC51FFDeF63fB0c014c882267C3A17261A5eD50"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "RDDT.dw",
+    "name": "Wrapped RDDT.d",
+    "address": "0x2F71B3804a74A013d00065225752dBA9aD061e51",
+    "logoURI": "BASE_URL/assets/rddt.dw.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "weETH",
+    "name": "Wrapped eETH",
+    "address": "0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe",
+    "logoURI": "BASE_URL/assets/weeth.png",
+    "decimals": 18,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "KWENTA",
+    "name": "Kwenta Token",
+    "address": "0x7fe5e5befa99A57CD690f2e220C251c90422da8B",
+    "logoURI": "BASE_URL/assets/kwenta.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "RBC",
+    "name": "Rubic Token",
+    "address": "0x10aAeD289a7b1B0155bF4b86c862f297E84465e0",
+    "logoURI": "BASE_URL/assets/rubic.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "OD",
+    "name": "Open Dollar",
+    "address": "0x221A0f68770658C15B525d0F89F5da2baAB5f321",
+    "logoURI": "BASE_URL/assets/od.svg",
+    "decimals": 18,
+    "quote": "derived_stable"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "eUSD",
+    "name": "Electronic Dollar",
+    "address": "0x12275DCB9048680c4Be40942eA4D92c74C63b844",
+    "logoURI": "BASE_URL/assets/eusd.png",
+    "decimals": 18,
+    "quote": "derived_stable",
+    "intermediaryTokens": ["0x96a993f06951B01430523D0D5590192d650EBf3e"]
+  },
+  {
+    "chainId": 42161,
+    "symbol": "ETH+",
+    "name": "ETHPlus",
+    "address": "0x18C14C2D707b2212e17d1579789Fc06010cfca23",
+    "logoURI": "BASE_URL/assets/eth+.png",
+    "decimals": 18,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "rgUSD",
+    "name": "Revenue Generating USD",
+    "address": "0x96a993f06951B01430523D0D5590192d650EBf3e",
+    "logoURI": "BASE_URL/assets/rgusd.png",
+    "decimals": 18,
+    "quote": "derived_stable"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "KNOX",
+    "name": "KNOX",
+    "address": "0x0BBF664D46becc28593368c97236FAa0fb397595",
+    "logoURI": "BASE_URL/assets/knox.png",
+    "decimals": 18,
+    "quote": "derived_stable",
+    "intermediaryTokens": ["0x96a993f06951B01430523D0D5590192d650EBf3e"]
+  },
+  {
+    "chainId": 42161,
+    "symbol": "CU",
+    "name": "Crypto Unicorns",
+    "address": "0x89C49A3fA372920aC23ce757A029e6936c0b8e02",
+    "logoURI": "BASE_URL/assets/cu.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "GME.dw",
+    "name": "Wrapped GME.d",
+    "address": "0x43333771E8d5FD74E5491d10aeAc2BFdC23D19C8",
+    "logoURI": "BASE_URL/assets/gme.dw.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "USDV",
+    "name": "Verified USD",
+    "address": "0x323665443CEf804A3b5206103304BD4872EA4253",
+    "logoURI": "BASE_URL/assets/usdv.png",
+    "decimals": 6,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "AARK",
+    "name": "AARK Token",
+    "address": "0xCa4e51F6AD4AFd9d1068E5899De9dd7d73F3463D",
+    "logoURI": "BASE_URL/assets/aark.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "MOLTEN",
+    "name": "Molten",
+    "address": "0x66E535e8D2ebf13F49F3D49e5c50395a97C137b1",
+    "logoURI": "BASE_URL/assets/molten.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "ZRO",
+    "name": "LayerZero",
+    "address": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+    "logoURI": "BASE_URL/assets/zro.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "uniETH",
+    "name": "Universal ETH",
+    "address": "0x3d15fD46CE9e551498328B1C83071D9509E2C3a0",
+    "logoURI": "BASE_URL/assets/unieth.png",
+    "decimals": 18,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "GNS",
+    "name": "Gains Network",
+    "address": "0x18c11FD286C5EC11c3b683Caa813B77f5163A122",
+    "logoURI": "BASE_URL/assets/gns.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "BORPA",
+    "name": "BorpaToken",
+    "address": "0x0002BcDaf53f4889BF2f43A3252d7c03Fe1b80bc",
+    "logoURI": "BASE_URL/assets/borpa.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "CNOTE-OFT",
+    "name": "cNote OFT",
+    "address": "0xEbe265c9299d0C879bcc2A76948511BA6ED6C36D",
+    "logoURI": "BASE_URL/assets/cnote.svg",
+    "decimals": 18,
+    "quote": "derived_stable"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "ETHFI",
+    "name": "ether.fi governance token",
+    "address": "0x7189fb5B6504bbfF6a852B13B7B82a3c118fDc27",
+    "logoURI": "BASE_URL/assets/ethfi.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+ {
+    "chainId": 42161,
+    "symbol": "HAT",
+    "name": "HATs Finance token",
+    "address": "0x4D22e37Eb4d71D1acc5f4889a65936D2a44A2f15",
+    "logoURI": "BASE_URL/assets/hats.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+    {
     "chainId": 42161,
     "symbol": "EMC",
     "name": "EdgeMatrix Computing Network",
     "address": "0xDFB8BE6F8c87f74295A87de951974362CedCFA30",
     "logoURI": "BASE_URL/assets/emc.jpeg",
     "decimals": 18,
-    "quote": "other",
     "priceChartPair": "0xA1cb647629Aa2dec7a7971D749b4154D4c69BEC6"
-  }
+    "quote": "other"
+  },
+
 ]

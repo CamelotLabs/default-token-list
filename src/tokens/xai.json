@@ -1,0 +1,44 @@
+[
+  {
+    "chainId": 660279,
+    "symbol": "wXAI",
+    "name": "Wrapped XAI",
+    "address": "0x3fB787101DC6Be47cfe18aeEe15404dcC842e6AF",
+    "logoURI": "BASE_URL/assets/xai.png",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 660279,
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "address": "0x1E3769Bd5fB2e9e9e7D4ED8667c947661F9A82E3",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "stable"
+  },
+  {
+    "chainId": 660279,
+    "symbol": "wETH",
+    "name": "Wrapped Ether",
+    "address": "0xBeE82CfdAff4a6AA4E4793cb81eb1C2E79aC463C",
+    "logoURI": "BASE_URL/assets/eth.svg",
+    "decimals": 18,
+    "common": true,
+    "quote": "other"
+  },
+  {
+    "chainId": 660279,
+    "symbol": "UNIM",
+    "name": "Unicorn Milk",
+    "address": "0x64060aB139Feaae7f06Ca4E63189D86aDEb51691",
+    "logoURI": "BASE_URL/assets/unim.jpg",
+    "decimals": 18,
+    "quote": "other"
+  }
+]

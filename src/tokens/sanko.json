@@ -1,0 +1,134 @@
+[
+  {
+    "chainId": 1996,
+    "symbol": "wDMT",
+    "name": "Wrapped DMT",
+    "address": "0x754cDAd6f5821077d6915004Be2cE05f93d176f8",
+    "logoURI": "BASE_URL/assets/dmt.png",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "address": "0x13D675BC5e659b11CFA331594cF35A20815dCF02",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "stable"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "wETH",
+    "name": "Wrapped ETH",
+    "address": "0xE01e3b20C5819cf919F7f1a2b4C18bBfd222F376",
+    "logoURI": "BASE_URL/assets/weth.svg",
+    "decimals": 18,
+    "common": true,
+    "quote": "other"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "STANKO",
+    "name": "stanko",
+    "address": "0x9c2730eA529c70E901fbDaf3e15E110CA8701C61",
+    "logoURI": "BASE_URL/assets/stanko.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "STAR",
+    "name": "Beat The Allegations",
+    "address": "0x3C84f959f4b8ca0c39847d02f936e13Fa8fC4Eb9",
+    "logoURI": "BASE_URL/assets/star.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "EUGENE",
+    "name": "EUGENE",
+    "address": "0x619Ef22392A549C9638D170db8C985fD147fAC98",
+    "logoURI": "BASE_URL/assets/eugene.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "GOLD",
+    "name": "Sanko Gold",
+    "address": "0x6F5e2d3b8c5C5c5F9bcB4adCF40b13308e688D4D",
+    "logoURI": "BASE_URL/assets/sankogold.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "TARD",
+    "name": "DMTardio Token",
+    "address": "0xad89dCFE247D12136Bc66127d70fFAb476136eCB",
+    "logoURI": "BASE_URL/assets/dmtardio.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "TRIPPY",
+    "name": "Trippy Dimethyltryptamine",
+    "address": "0xCBcd7944c0E729dDF44A8Fed973D74BD37Af9170",
+    "logoURI": "BASE_URL/assets/trippy.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "SRANKO",
+    "name": "POOP",
+    "address": "0x80e53DC303782d6CC1624d56b4C3bDa4125DB158",
+    "logoURI": "BASE_URL/assets/sranko.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "SMOKE",
+    "name": "smoke the ticker",
+    "address": "0xe78A3857593083dD6e1F7859e1B711401FC6f2cc",
+    "logoURI": "BASE_URL/assets/smoke.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "LSD",
+    "name": "LSD",
+    "address": "0x3c02f27100a06287e55bBA1A588CdC22D72B7965",
+    "logoURI": "BASE_URL/assets/lsd.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "SP",
+    "name": "Smoovie Phone",
+    "address": "0x3f710cBd0F4268719C6c2E5E078a4CAfAeED7d45",
+    "logoURI": "BASE_URL/assets/sp.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 1996,
+    "symbol": "Silver",
+    "name": "Sanko Silver",
+    "address": "0x699bFE71910D14B8560f65D5Bd370FC65d0c3B64",
+    "logoURI": "BASE_URL/assets/silver.png",
+    "decimals": 18,
+    "quote": "other"
+  }
+]

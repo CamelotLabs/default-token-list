@@ -1,0 +1,24 @@
+[
+  {
+    "chainId": 1729,
+    "symbol": "WETH",
+    "name": "Wrapped Ether (Socket)",
+    "address": "0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30",
+    "logoURI": "BASE_URL/assets/weth.svg",
+    "decimals": 18,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 1729,
+    "symbol": "rUSD",
+    "name": "Reya USD",
+    "address": "0xa9F32a851B1800742e47725DA54a09A7Ef2556A3",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "stable"
+  }
+]

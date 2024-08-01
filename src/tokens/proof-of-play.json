@@ -1,0 +1,25 @@
+[
+  {
+    "chainId": 70700,
+    "symbol": "WETH",
+    "name": "WETH",
+    "address": "0x77684A04145a5924eFCE0D92A7c4a2A2E8C359de",
+    "logoURI": "BASE_URL/assets/eth.svg",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 70700,
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "address": "0xd7f991cF407C877dc91b2C6aCade45643925cf7a",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "stable"
+  }
+]

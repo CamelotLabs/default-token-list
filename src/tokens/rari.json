@@ -1,0 +1,35 @@
+[
+  {
+    "chainId": 1380012617,
+    "symbol": "WETH",
+    "name": "Wrapped Ether",
+    "address": "0xf037540e51D71b2D2B1120e8432bA49F29EDFBD0",
+    "logoURI": "BASE_URL/assets/weth.svg",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 1380012617,
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "address": "0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "stable"
+  },
+  {
+    "chainId": 1380012617,
+    "symbol": "USDT",
+    "name": "USDT",
+    "address": "0x362FAE9A75B27BBc550aAc28a7c1F96C8D483120",
+    "logoURI": "BASE_URL/assets/usdt.svg",
+    "decimals": 6,
+    "common": true,
+    "quote": "derived_stable"
+  }
+]
