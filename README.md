@@ -29,7 +29,7 @@ To directly submit the integration of your token to Camelot's default token list
 - symbol (string)
 - name (string)
 - address (string)
-- logoURI (string): URI to the logo of your token, format should be squared, either .svg or .png with a 256x256 res
+- logoURI (string): URI to the logo of your token, format should be squared, either .svg or .png with a 100x100 resolution
 - decimals (number)
 - quote (string): define the type of your token, should be one of the following values:
   - "native": e.g. WETH
