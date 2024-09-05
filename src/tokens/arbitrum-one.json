@@ -164,7 +164,9 @@
     "decimals": 6,
     "common": true,
     "quote": "stable",
-    "priceChartPair": "0x8dbbc03de7701cf3336a035695f8d3225418e79f"
+    "priceChartPair": "0x8dbbc03de7701cf3336a035695f8d3225418e79f",
+    "forcePriceFromV3": true
+
   },
   {
     "chainId": 42161,
@@ -175,7 +177,8 @@
     "decimals": 6,
     "common": true,
     "quote": "derived_stable",
-    "priceChartPair": "0x8dbbc03de7701cf3336a035695f8d3225418e79f"
+    "priceChartPair": "0x8dbbc03de7701cf3336a035695f8d3225418e79f",
+    "forcePriceFromV3": true
   },
   {
     "chainId": 42161,
@@ -195,7 +198,8 @@
     "decimals": 6,
     "common": true,
     "quote": "derived_stable",
-    "priceChartPair": "0x8dbbc03de7701cf3336a035695f8d3225418e79f"
+    "priceChartPair": "0x8dbbc03de7701cf3336a035695f8d3225418e79f",
+    "forcePriceFromV3": true
   },
   {
     "chainId": 42161,
