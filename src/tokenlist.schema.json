@@ -365,6 +365,10 @@
         "defaultSwapOutput": {
           "type": "boolean",
           "description": "If set to true, the token will be used as the default swap output for that chain"
+        },
+        "forcePriceFromV3": {
+          "type": "boolean",
+          "description": "If set to true, the token will always be priced with a v3 pair"
         }
       },
       "required": [
