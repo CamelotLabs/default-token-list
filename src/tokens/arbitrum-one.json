@@ -1773,7 +1773,7 @@
   {
     "chainId": 42161,
     "symbol": "EMC",
-    "name": "EdgeMatrix Computing Network",
+    "name": "EdgeMatrix Chain",
     "address": "0xDFB8BE6F8c87f74295A87de951974362CedCFA30",
     "logoURI": "BASE_URL/assets/emc.jpeg",
     "decimals": 18,
