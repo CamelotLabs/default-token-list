@@ -1806,7 +1806,7 @@
     "symbol": "lUSDC",
     "name": "Lodestar USD Coin",
     "address": "0x4C9aAed3b8c443b4b634D1A189a5e25C604768dE",
-    "logoURI": "BASE_URL/assets/lUSDC.png",
+    "logoURI": "BASE_URL/assets/lUSDC.svg",
     "decimals": 8,
     "quote": "other"
   },
@@ -1815,7 +1815,7 @@
     "symbol": "lETH",
     "name": "Lodestar Ether",
     "address": "0x2193c45244AF12C280941281c8aa67dD08be0a64",
-    "logoURI": "BASE_URL/assets/lETH.png",
+    "logoURI": "BASE_URL/assets/lETH.svg",
     "decimals": 8,
     "quote": "other"
   }
