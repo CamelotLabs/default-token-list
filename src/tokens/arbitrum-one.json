@@ -1827,5 +1827,14 @@
     "logoURI": "BASE_URL/assets/alex.svg",
     "decimals": 18,
     "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "ORDER",
+    "name": "ORDER",
+    "address": "0x4E200fE2f3eFb977d5fd9c430A41531FB04d97B8",
+    "logoURI": "BASE_URL/assets/order.svg",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
