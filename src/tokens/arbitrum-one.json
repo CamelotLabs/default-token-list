@@ -1859,7 +1859,7 @@
     "chainId": 42161,
     "symbol": "raz",
     "name": "Fanko Official Token",
-    "address": "0x4f760c8e8f02538d835a567190524c27bb031cab",
+    "address": "0x4f760c8E8f02538d835A567190524C27bB031caB",
     "logoURI": "BASE_URL/assets/raz.png",
     "decimals": 18,
     "quote": "other"
