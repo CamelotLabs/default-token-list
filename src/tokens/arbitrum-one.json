@@ -1889,7 +1889,7 @@
     "address": "0x5018609AB477cC502e170A5aCcf5312B86a4b94f",
     "logoURI": "BASE_URL/assets/usdz.svg",
     "decimals": 18,
-    "quote": "other"
+    "quote": "stable"
   },
   {
     "chainId": 42161,
@@ -1898,6 +1898,6 @@
     "address": "0x1B2c29e3897b8F9170c98440A483e90e715C879d",
     "logoURI": "BASE_URL/assets/susdz.svg",
     "decimals": 18,
-    "quote": "other"
+    "quote": "stable"
   }
 ]
