@@ -1857,6 +1857,24 @@
   },
   {
     "chainId": 42161,
+    "symbol": "raz",
+    "name": "Fanko Official Token",
+    "address": "0x4f760c8E8f02538d835A567190524C27bB031caB",
+    "logoURI": "BASE_URL/assets/raz.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "uniBTC",
+    "name": "uniBTC",
+    "address": "0x6B2a01A5f79dEb4c2f3c0eDa7b01DF456FbD726a",
+    "logoURI": "BASE_URL/assets/unibtc.svg",
+    "decimals": 8,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
     "symbol": "PEAR",
     "name": "Pear",
     "address": "0x3212dc0F8c834e4DE893532d27CC9B6001684DB0",
