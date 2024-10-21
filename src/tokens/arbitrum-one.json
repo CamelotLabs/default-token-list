@@ -1563,10 +1563,10 @@
   },
   {
     "chainId": 42161,
-    "symbol": "SYK",
-    "name": "Stryke Token",
-    "address": "0xACC51FFDeF63fB0c014c882267C3A17261A5eD50",
-    "logoURI": "BASE_URL/assets/syk.svg",
+    "symbol": "plsSYK",
+    "name": "Plutus SYK",
+    "address": "0x68D6d2545f14751baF36c417c2CC7cdf8dA8a15b",
+    "logoURI": "BASE_URL/assets/plssyk.svg",
     "decimals": 18,
     "quote": "other"
   },
