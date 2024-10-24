@@ -65,7 +65,7 @@
     "symbol": "atETH",
     "name": "Latch staked ETH",
     "address": "0xc314b8637B05A294Ae9D9C29300d5f667c748baD",
-    "logoURI": "https://raw.githubusercontent.com/latchwallet/latch-token-list/master/logo/atETH.svg",
+    "logoURI": "BASE_URL/assets/ateth.svg",
     "decimals": 18,
     "quote": "other"
   },
@@ -74,7 +74,7 @@
     "symbol": "atUSD",
     "name": "Latch staked USD",
     "address": "0xc4af68Dd5b96f0A544c4417407773fEFDc97F58d",
-    "logoURI": "https://raw.githubusercontent.com/latchwallet/latch-token-list/master/logo/atUSD.svg",
+    "logoURI": "BASE_URL/assets/atusd.svg",
     "decimals": 18,
     "quote": "derived_stable"
   }
