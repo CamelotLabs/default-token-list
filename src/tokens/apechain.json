@@ -136,7 +136,7 @@
     "symbol": "APE",
     "name": "Ape Bank",
     "address": "0xd723e78797a7ea551c5ca2d20f834862fbff95ef",
-    "logoURI": "BASE_URL/assets/FAFO.png",
+    "logoURI": "BASE_URL/assets/BANK.png",
     "decimals": 18,
     "quote": "other"
   },
