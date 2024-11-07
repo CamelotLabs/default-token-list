@@ -133,11 +133,11 @@
   },
   {
     "chainId": 33139,
-    "symbol": "APE",
-    "name": "Ape Bank",
-    "address": "0xd723e78797a7ea551c5ca2d20f834862fbff95ef",
+    "symbol": "BANK",
+    "name": "ApeBank",
+    "address": "0x9d5a7d38caf04ec7d2f04cad6e90565516cd59ba",
     "logoURI": "BASE_URL/assets/BANK.png",
     "decimals": 18,
     "quote": "other"
-  },
+  }
 ]
