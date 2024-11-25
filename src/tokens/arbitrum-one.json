@@ -1979,6 +1979,7 @@
     "address": "0x4d48d503ed04d50418C9aBF163b1168FF834E47c",
     "logoURI": "BASE_URL/assets/gloop.jpg",
     "decimals": 18,
-    "quote": "other"
+    "quote": "other",
+    "intermediaryTokens": ["0xAad4187a81689AF72d91966c8119756E425cD7CF"]
   }
 ]
