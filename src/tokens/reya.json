@@ -20,5 +20,27 @@
     "common": true,
     "defaultSwapOutput": true,
     "quote": "stable"
+  },
+  {
+    "chainId": 1729,
+    "symbol": "deUSD",
+    "name": "deUSD",
+    "address": "0x809b99df4ddd6fa90f2cf305e2cdc310c6ad3c2c",
+    "logoURI": "BASE_URL/assets/deUSD.svg",
+    "decimals": 18,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "derived_stable"
+  },
+  {
+    "chainId": 1729,
+    "symbol": "sdeUSD",
+    "name": "Staked deUSD",
+    "address": "0x4d3feb76ab1c7ef40388cd7a2066edace1a2237d",
+    "logoURI": "BASE_URL/assets/deUSD.svg",
+    "decimals": 18,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "other"
   }
 ]
