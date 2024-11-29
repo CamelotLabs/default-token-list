@@ -25,22 +25,20 @@
     "chainId": 1729,
     "symbol": "deUSD",
     "name": "deUSD",
-    "address": "0x809b99df4ddd6fa90f2cf305e2cdc310c6ad3c2c",
+    "address": "0x809B99df4DDd6fA90F2CF305E2cDC310C6AD3C2c",
     "logoURI": "BASE_URL/assets/deUSD.svg",
     "decimals": 18,
     "common": true,
-    "defaultSwapOutput": true,
     "quote": "derived_stable"
   },
   {
     "chainId": 1729,
     "symbol": "sdeUSD",
     "name": "Staked deUSD",
-    "address": "0x4d3feb76ab1c7ef40388cd7a2066edace1a2237d",
+    "address": "0x4D3fEB76ab1C7eF40388Cd7a2066edacE1a2237D",
     "logoURI": "BASE_URL/assets/deUSD.svg",
     "decimals": 18,
     "common": true,
-    "defaultSwapOutput": true,
-    "quote": "other"
+    "quote": "derived_stable"
   }
 ]
