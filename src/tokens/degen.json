@@ -1,0 +1,45 @@
+[
+  {
+    "chainId": 666666666,
+    "symbol": "WDEGEN",
+    "name": "Wrapped DEGEN",
+    "address": "0xEb54dACB4C2ccb64F8074eceEa33b5eBb38E5387",
+    "logoURI": "BASE_URL/assets/degen.png",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 666666666,
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "address": "0xF1815bd50389c46847f0Bda824eC8da914045D14",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "stable"
+  },
+  {
+    "chainId": 666666666,
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "address": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
+    "logoURI": "BASE_URL/assets/usdt.svg",
+    "decimals": 6,
+    "common": true,
+    "quote": "derived_stable"
+  },
+  {
+    "chainId": 666666666,
+    "symbol": "WETH",
+    "name": "Wrapped Ether",
+    "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
+    "logoURI": "BASE_URL/assets/eth.svg",
+    "decimals": 18,
+    "common": true,
+    "quote": "other"
+  }
+]

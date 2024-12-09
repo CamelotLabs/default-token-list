@@ -1,0 +1,45 @@
+[
+  {
+    "chainId": 41923,
+    "symbol": "WEDU",
+    "name": "Wrapped EDU",
+    "address": "0xd02E8c38a8E3db71f8b2ae30B8186d7874934e12",
+    "logoURI": "BASE_URL/assets/edu.svg",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 41923,
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "address": "0x836d275563bAb5E93Fd6Ca62a95dB7065Da94342",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "stable"
+  },
+  {
+    "chainId": 41923,
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "address": "0x7277Cc818e3F3FfBb169c6Da9CC77Fc2d2a34895",
+    "logoURI": "BASE_URL/assets/usdt.svg",
+    "decimals": 6,
+    "common": true,
+    "quote": "derived_stable"
+  },
+  {
+    "chainId": 41923,
+    "symbol": "DAI",
+    "name": "DAI",
+    "address": "0x22fa593845fDa46Db5784f519B3364432a1d4203",
+    "logoURI": "BASE_URL/assets/dai.svg",
+    "decimals": 18,
+    "common": true,
+    "quote": "derived_stable"
+  }
+]

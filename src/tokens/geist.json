@@ -1,0 +1,25 @@
+[
+  {
+    "chainId": 63157,
+    "symbol": "WGHST",
+    "name": "Wrapped GHST",
+    "address": "0x74e2051A9Cd994F83f2d789448dCa4a3e879964c",
+    "logoURI": "BASE_URL/assets/ghst.svg",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 63157,
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "address": "0xCFa0bC1ED6135166e9163211b4Ca566a0EE81e35",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "stable"
+  }
+]

@@ -31,5 +31,14 @@
     "decimals": 6,
     "common": true,
     "quote": "derived_stable"
+  },
+  {
+    "chainId": 1380012617,
+    "symbol": "ROSS",
+    "name": "RARI Opinion Shaping System",
+    "address": "0x57fc3d0eD1814E66186B39d59d78Ca9872529BBB",
+    "logoURI": "BASE_URL/assets/ross.png",
+    "decimals": 18,
+    "quote": "other"
   }
 ]

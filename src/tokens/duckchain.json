@@ -1,0 +1,25 @@
+[
+  {
+    "chainId": 5545,
+    "symbol": "WTON",
+    "name": "Wrapped TON",
+    "address": "0x7F9308E8d724e724EC31395f3af52e0593BB2e3f",
+    "logoURI": "BASE_URL/assets/ton.svg",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 5545,
+    "symbol": "USDT",
+    "name": "Bridged Tether USD",
+    "address": "0xbE138aD5D41FDc392AE0B61b09421987C1966CC3",
+    "logoURI": "BASE_URL/assets/usdt.svg",
+    "decimals": 18,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "stable"
+  }
+]

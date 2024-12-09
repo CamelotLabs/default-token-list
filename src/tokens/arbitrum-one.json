@@ -1962,5 +1962,33 @@
     "decimals": 18,
     "quote": "other",
     "intermediaryTokens": ["0x3d9907F9a368ad0a51Be60f7Da3b97cf940982D8"]
+  },
+  {
+    "chainId": 42161,
+    "symbol": "GMI",
+    "name": "GMX Market Index",
+    "address": "0xAad4187a81689AF72d91966c8119756E425cD7CF",
+    "logoURI": "BASE_URL/assets/gmi.jpg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "GLOOP",
+    "name": "Gloop Token",
+    "address": "0x4d48d503ed04d50418C9aBF163b1168FF834E47c",
+    "logoURI": "BASE_URL/assets/gloop.jpg",
+    "decimals": 18,
+    "quote": "other",
+    "intermediaryTokens": ["0xAad4187a81689AF72d91966c8119756E425cD7CF"]
+  },
+  {
+    "chainId": 42161,
+    "symbol": "VITAI",
+    "name": "Vitalik Ai",
+    "address": "0x1B7AD346b6Ff2D196DaA8E78AEd86Baa6D7e3B02",
+    "logoURI": "BASE_URL/assets/vitai.jpg",
+    "decimals": 18,
+    "quote": "other"
   }
 ]

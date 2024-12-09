@@ -1,0 +1,79 @@
+[
+  {
+    "chainId": 21000000,
+    "symbol": "WBTCN",
+    "name": "Wrapped Bitcorn",
+    "address": "0xda5dDd7270381A7C2717aD10D1c0ecB19e3CDFb2",
+    "logoURI": "BASE_URL/assets/btcn.svg",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 21000000,
+    "symbol": "USDC.e",
+    "name": "Bridged USDC (Corn)",
+    "address": "0xDF0B24095e15044538866576754F3C964e902Ee6",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "stable"
+  },
+  {
+    "chainId": 21000000,
+    "symbol": "WETH",
+    "name": "Wrapped Ether",
+    "address": "0x485BBC4F98c071C9BD74Ac255262E61F866f071a",
+    "logoURI": "BASE_URL/assets/weth.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 21000000,
+    "symbol": "weETH",
+    "name": "Wrapped eETH",
+    "address": "0x85aDfA60dDf86b67E6fD493Bd2c774b2eD772D14",
+    "logoURI": "BASE_URL/assets/weeth.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 21000000,
+    "symbol": "aBTC",
+    "name": "aBTC",
+    "address": "0x76b0D27F268f405584ACA51b371b144dD5b0a155",
+    "logoURI": "BASE_URL/assets/abtc.svg",
+    "decimals": 18,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 21000000,
+    "symbol": "waBTC",
+    "name": "Wrapped aBTC",
+    "address": "0x09DEF5aBc67e967d54E8233A4b5EBBc1B3fbE34b",
+    "logoURI": "BASE_URL/assets/wabtc.svg",
+    "decimals": 18,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 21000000,
+    "symbol": "LBTC",
+    "name": "Lombard Staked Bitcoin",
+    "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+    "logoURI": "BASE_URL/assets/lbtc.svg",
+    "decimals": 8,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 21000000,
+    "symbol": "pumpBTC",
+    "name": "pumpBTC",
+    "address": "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e",
+    "logoURI": "BASE_URL/assets/pumpbtc.svg",
+    "decimals": 8,
+    "quote": "derived_native"
+  }
+]

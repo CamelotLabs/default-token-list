@@ -4,6 +4,11 @@ const arbitrumSepolia = require("./tokens/arbitrum-sepolia.json");
 const arbitrumOne = require("./tokens/arbitrum-one.json");
 const alephZero = require("./tokens/aleph-zero.json");
 const apechain = require("./tokens/apechain.json");
+const corn = require("./tokens/corn.json");
+const degen = require("./tokens/degen.json");
+const duckchain = require("./tokens/duckchain.json");
+const educhain = require("./tokens/educhain.json");
+const geist = require("./tokens/geist.json");
 const gravity = require("./tokens/gravity.json");
 const molten = require("./tokens/molten.json");
 const proofOfPlay = require("./tokens/proof-of-play.json");
@@ -16,7 +21,25 @@ const xai = require("./tokens/xai.json");
 const BASE_URL = process.env.BASE_URL || "https://token-list.camelot.exchange"
 
 module.exports = function buildList() {
-  const tokens = [...arbitrumSepolia, ...arbitrumOne, ...alephZero, ...apechain, ...gravity, ...molten, ...proofOfPlay, ...rari, ...reya, ...sanko, ...winr, ...xai]
+  const tokens = [
+    ...arbitrumSepolia,
+    ...arbitrumOne,
+    ...alephZero,
+    ...apechain,
+    ...corn,
+    ...degen,
+    ...duckchain,
+    ...educhain,
+    ...geist,
+    ...gravity,
+    ...molten,
+    ...proofOfPlay,
+    ...rari,
+    ...reya,
+    ...sanko,
+    ...winr,
+    ...xai
+  ]
   const processedTokens = JSON.parse(JSON.stringify(tokens).replace(/BASE_URL/g, BASE_URL))
   const parsed = version.split(".");
 
