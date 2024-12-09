@@ -135,7 +135,7 @@
   "chainId": 33139,
   "symbol": "WONG",
   "name": "WONG",
-  "address": "0xd6e4df460d9ba104dfc5dc57db392c177083d20c",
+  "address": "0xd6e4DF460D9ba104Dfc5Dc57DB392c177083d20c",
   "logoURI": "BASE_URL/assets/wong.png",
   "decimals": 18,
   "quote": "other"
