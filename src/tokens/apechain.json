@@ -140,6 +140,7 @@
     "decimals": 18,
     "quote": "other"
   },
+  {
     "chainId": 33139,
     "symbol": "CULT",
     "name": "NOT A CULT",
