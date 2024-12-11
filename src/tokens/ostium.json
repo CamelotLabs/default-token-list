@@ -1,0 +1,11 @@
+[
+  {
+    "chainId": 42161,
+    "symbol": "OLP",
+    "name": "ostiumLP",
+    "address": "0x20D419a8e12C45f88fDA7c5760bb6923Cee27F98",
+    "logoURI": "BASE_URL/assets/ostiumLogo.svg",
+    "decimals": 6,
+    "quote": "other"
+  }
+]
