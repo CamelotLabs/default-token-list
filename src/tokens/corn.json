@@ -85,5 +85,23 @@
     "decimals": 18,
     "quote": "points",
     "excludeFromExchange": true
+  },
+  {
+    "chainId": 21000000,
+    "symbol": "SolvBTC",
+    "name": "Solv BTC",
+    "address": "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77",
+    "logoURI": "BASE_URL/assets/solvbtc.png",
+    "decimals": 18,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 21000000,
+    "symbol": "SolvBTC.BBN",
+    "name": "SolvBTC Babylon",
+    "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
+    "logoURI": "BASE_URL/assets/solvbtcbbn.png",
+    "decimals": 18,
+    "quote": "derived_native"
   }
 ]
