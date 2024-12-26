@@ -180,7 +180,7 @@
     "chainId": 33139,
     "symbol": "MOON",
     "name": "MOON MB Coin",
-    "address": "0x4f577236564ea3baabbc35d274d8623b81f703eb",
+    "address": "0x4F577236564Ea3BAabBC35d274D8623B81F703EB",
     "logoURI": "BASE_URL/assets/moon.jpg",
     "decimals": 18,
     "quote": "other"
