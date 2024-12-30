@@ -2048,7 +2048,7 @@
     "chainId": 42161,
     "symbol": "wHYPE",
     "name": "Wrapped HYPE",
-    "address": "0xC5CD1C85a48eeBD7c8c9201E78Ba98A9c19Ab5B1",
+    "address": "0xaC75f0c46723432a2303f2a7c7769535A179Ed56",
     "logoURI": "BASE_URL/assets/wHYPE.svg",
     "decimals": 6,
     "quote": "other"
