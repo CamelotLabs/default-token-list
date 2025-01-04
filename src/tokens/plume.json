@@ -1,0 +1,75 @@
+[
+  {
+    "chainId": 98865,
+    "symbol": "WETH",
+    "name": "Wrapped Ether",
+    "address": "0x626613B473F7eF65747967017C11225436EFaEd7",
+    "logoURI": "BASE_URL/assets/weth.svg",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "native"
+  },
+  {
+    "chainId": 98865,
+    "symbol": "pUSD",
+    "name": "Plume USD",
+    "address": "0xdddD73F5Df1F0DC31373357beAC77545dC5A6f3F",
+    "logoURI": "BASE_URL/assets/pusd.svg",
+    "decimals": 6,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "stable"
+  },
+  {
+    "chainId": 98865,
+    "symbol": "pETH",
+    "name": "Plume ETH",
+    "address": "0xD630fb6A07c9c723cf709d2DaA9B63325d0E0B73",
+    "logoURI": "BASE_URL/assets/weth.svg",
+    "decimals": 18,
+    "common": true,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 98865,
+    "symbol": "USDC.e",
+    "name": "Bridged USDC",
+    "address": "0x3938A812c54304fEffD266C7E2E70B48F9475aD6",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "common": true,
+    "quote": "stable"
+  },
+  {
+    "chainId": 98865,
+    "symbol": "nRWA",
+    "name": "Nest RWA Vault Aggregate Token",
+    "address": "0x81537d879ACc8a290a1846635a0cAA908f8ca3a6",
+    "logoURI": "BASE_URL/assets/nrwa.svg",
+    "decimals": 18,
+    "common": true,
+    "quote": "other"
+  },
+  {
+    "chainId": 98865,
+    "symbol": "nTBILL",
+    "name": "Nest Treasuries Vault Aggregate Token",
+    "address": "0xE72Fe64840F4EF80E3Ec73a1c749491b5c938CB9",
+    "logoURI": "BASE_URL/assets/ntbill.svg",
+    "decimals": 18,
+    "common": true,
+    "quote": "other"
+  },
+  {
+    "chainId": 98865,
+    "symbol": "nYIELD",
+    "name": "Nest High Yield Vault Aggregate Token",
+    "address": "0x892DFf5257B39f7afB7803dd7C81E8ECDB6af3E8",
+    "logoURI": "BASE_URL/assets/nyield.svg",
+    "decimals": 18,
+    "common": true,
+    "quote": "other"
+  }
+]

@@ -11,6 +11,7 @@ const educhain = require("./tokens/educhain.json");
 const geist = require("./tokens/geist.json");
 const gravity = require("./tokens/gravity.json");
 const molten = require("./tokens/molten.json");
+const plume = require("./tokens/plume.json");
 const proofOfPlay = require("./tokens/proof-of-play.json");
 const rari = require("./tokens/rari.json");
 const reya = require("./tokens/reya.json");
@@ -33,6 +34,7 @@ module.exports = function buildList() {
     ...geist,
     ...gravity,
     ...molten,
+    ...plume,
     ...proofOfPlay,
     ...rari,
     ...reya,
