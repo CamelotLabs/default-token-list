@@ -139,6 +139,15 @@
   },
   {
     "chainId": 42161,
+    "symbol": "plsSPA",
+    "name": "Plutus SPA",
+    "address": "0x0d111e482146fe9ac9ca3a65d92e65610bbc1ba6",
+    "logoURI": "BASE_URL/assets/plsspa.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
     "symbol": "SPELL",
     "name": "Spell Token",
     "address": "0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF",
