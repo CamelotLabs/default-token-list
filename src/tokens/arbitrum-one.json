@@ -2055,5 +2055,14 @@
     "logoURI": "BASE_URL/assets/whype.svg",
     "decimals": 6,
     "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "UMJA",
+    "name": "Umoja Governance Token",
+    "address": "0x16A500Aec6c37F84447ef04E66c57cfC6254cF92",
+    "logoURI": "BASE_URL/assets/umja.png",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
