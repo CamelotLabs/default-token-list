@@ -55,6 +55,15 @@
   },
   {
     "chainId": 42161,
+    "symbol": "plsGRAIL",
+    "name": "Plutus GRAIL",
+    "address": "0x9e6B748d25Ed2600Aa0ce7Cbb42267adCF21Fd9B",
+    "logoURI": "BASE_URL/assets/plsgrail.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
     "symbol": "BFR",
     "name": "Buffer Token",
     "address": "0x1A5B0aaF478bf1FDA7b934c76E7692D722982a6D",
