@@ -55,6 +55,15 @@
   },
   {
     "chainId": 42161,
+    "symbol": "plsGRAIL",
+    "name": "Plutus GRAIL",
+    "address": "0x9e6B748d25Ed2600Aa0ce7Cbb42267adCF21Fd9B",
+    "logoURI": "BASE_URL/assets/plsgrail.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
     "symbol": "BFR",
     "name": "Buffer Token",
     "address": "0x1A5B0aaF478bf1FDA7b934c76E7692D722982a6D",
@@ -134,6 +143,15 @@
     "name": "Sperax",
     "address": "0x5575552988A3A80504bBaeB1311674fCFd40aD4B",
     "logoURI": "BASE_URL/assets/spa.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "plsSPA",
+    "name": "Plutus SPA",
+    "address": "0x0D111e482146fE9aC9cA3A65D92E65610BBC1Ba6",
+    "logoURI": "BASE_URL/assets/plsspa.svg",
     "decimals": 18,
     "quote": "other"
   },
@@ -2058,9 +2076,18 @@
   },
   {
     "chainId": 42161,
+    "symbol": "CARV",
+    "name": "CARV",
+    "address": "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
+    "logoURI": "BASE_URL/assets/carv.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
     "symbol": "O3",
     "name": "O3",
-    "address": "0xdd89a4d3362828e601df52208302a741f08e46c5",
+    "address": "0xDd89a4D3362828e601df52208302A741F08E46c5",
     "logoURI": "BASE_URL/assets/o3layer.png",
     "decimals": 18,
     "quote": "other"
