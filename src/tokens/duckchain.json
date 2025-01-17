@@ -21,5 +21,16 @@
     "common": true,
     "defaultSwapInput": true,
     "quote": "stable"
+  },
+  {
+    "chainId": 5545,
+    "symbol": "DUCK",
+    "name": "DUCK",
+    "address": "0xdA65892eA771d3268610337E9964D916028B7dAD",
+    "logoURI": "BASE_URL/assets/duck.svg",
+    "decimals": 9,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "other"
   }
 ]
