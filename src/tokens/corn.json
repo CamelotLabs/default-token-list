@@ -120,7 +120,7 @@
     "address": "0xff12470a969Dd362EB6595FFB44C82c959Fe9ACc",
     "logoURI": "BASE_URL/assets/usda.png",
     "decimals": 18,
-    "quote": "stable"
+    "quote": "derived_stable"
   },
   {
     "chainId": 21000000,
