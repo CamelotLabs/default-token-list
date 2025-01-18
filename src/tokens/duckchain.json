@@ -30,7 +30,6 @@
     "logoURI": "BASE_URL/assets/duck.svg",
     "decimals": 9,
     "common": true,
-    "defaultSwapInput": true,
     "quote": "other"
   }
 ]
