@@ -193,5 +193,14 @@
     "logoURI": "BASE_URL/assets/eai.png",
     "decimals": 18,
     "quote": "other"
+  },
+  {
+    "chainId": 33139,
+    "symbol": "BANK",
+    "name": "ApeBank",
+    "address": "0x9D5a7d38CAF04ec7d2f04Cad6e90565516cD59Ba",
+    "logoURI": "BASE_URL/assets/apebank.svg",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
