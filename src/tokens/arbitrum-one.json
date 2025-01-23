@@ -2146,5 +2146,14 @@
     "logoURI": "BASE_URL/assets/anon.png",
     "decimals": 18,
     "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "RARI",
+    "name": "RARI",
+    "address": "0xCf78572A8fE97b2B9a4B9709f6a7D9a863c1b8E0",
+    "logoURI": "BASE_URL/assets/rari.svg",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
