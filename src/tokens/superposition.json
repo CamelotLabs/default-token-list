@@ -21,5 +21,35 @@
     "common": true,
     "defaultSwapInput": true,
     "quote": "stable"
+  },
+  {
+    "chainId": 55244,
+    "symbol": "ARB",
+    "name": "Arbitrum",
+    "address": "0xA2555701754464d32D9624149E3fDb459F3c8DE4",
+    "logoURI": "BASE_URL/assets/arb.png",
+    "decimals": 18,
+    "common": true,
+    "quote": "other"
+  },
+  {
+    "chainId": 55244,
+    "symbol": "FLY",
+    "name": "Fluidity",
+    "address": "0x80eFAD50D395671C13C4b1FA2969f7a7Aa9EF7b3",
+    "logoURI": "BASE_URL/assets/fly.png",
+    "decimals": 6,
+    "common": true,
+    "quote": "other"
+  },
+  {
+    "chainId": 55244,
+    "symbol": "WBTC",
+    "name": "Wrapped BTC",
+    "address": "0x6e142cdaefa4ba7786e8d1ff74968db67c3b910d",
+    "logoURI": "BASE_URL/assets/wbtc.png",
+    "decimals": 8,
+    "common": true,
+    "quote": "other"
   }
 ]
