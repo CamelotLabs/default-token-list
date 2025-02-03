@@ -46,8 +46,8 @@
     "chainId": 55244,
     "symbol": "WBTC",
     "name": "Wrapped BTC",
-    "address": "0x6e142cdaefa4ba7786e8d1ff74968db67c3b910d",
-    "logoURI": "BASE_URL/assets/wbtc.png",
+    "address": "0x6e142cDaeFA4BA7786e8d1Ff74968Db67C3b910d",
+    "logoURI": "BASE_URL/assets/wbtc.svg",
     "decimals": 8,
     "common": true,
     "quote": "other"
