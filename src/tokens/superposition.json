@@ -51,5 +51,14 @@
     "decimals": 8,
     "common": true,
     "quote": "other"
+  },
+  {
+    "chainId": 55244,
+    "symbol": "demETH",
+    "name": "Demether ETH",
+    "address": "0xbAE3E03e3f847D0adD4eE6bE4732c690f7Fa9cCc",
+    "logoURI": "BASE_URL/assets/demETH.png",
+    "decimals": 18,
+    "quote": "derived_native"
   }
 ]
