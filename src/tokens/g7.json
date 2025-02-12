@@ -1,0 +1,50 @@
+[
+  {
+    "chainId": 42161,
+    "symbol": "G7",
+    "name": "G7 (Arbitrum One)",
+    "address": "0xF18e4466F26B4cA55bbAb890b314a54976E45B17",
+    "logoURI": "BASE_URL/assets/g7.svg",
+    "decimals": 18,
+    "isWNative": false,
+    "common": true,
+    "defaultSwapOutput": true,
+    "quote": "other"
+  },
+  {
+    "chainId": 2187,
+    "symbol": "WG7",
+    "name": "Wrapped G7",
+    "address": "0xfa3ed70386b9255fC04aA008A8ad1B0CDa816Fac",
+    "logoURI": "BASE_URL/assets/wg7.svg",
+    "decimals": 18,
+    "isWNative": true,
+    "common": true,
+    "defaultSwapInput": false,
+    "quote": "native"
+  },
+  {
+    "chainId": 2187,
+    "symbol": "USDC.e",
+    "name": "Bridged USDC",
+    "address": "0x401eCb1D350407f13ba348573E5630B83638E30D",
+    "logoURI": "BASE_URL/assets/usdc.svg",
+    "decimals": 6,
+    "isWNative": false,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "stable"
+  },
+  {
+    "chainId": 2187,
+    "symbol": "WETH",
+    "name": "Wrapped Ether",
+    "address": "0xB1116517a980DA056E05Fa521d524E1AFD8D885f",
+    "logoURI": "BASE_URL/assets/weth.svg",
+    "decimals": 18,
+    "isWNative": false,
+    "common": true,
+    "defaultSwapInput": true,
+    "quote": "other"
+  }
+]
