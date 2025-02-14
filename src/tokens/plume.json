@@ -27,7 +27,7 @@
     "symbol": "pETH",
     "name": "Plume ETH",
     "address": "0xD630fb6A07c9c723cf709d2DaA9B63325d0E0B73",
-    "logoURI": "BASE_URL/assets/weth.svg",
+    "logoURI": "BASE_URL/assets/peth.svg",
     "decimals": 18,
     "common": true,
     "quote": "derived_native"
@@ -68,6 +68,16 @@
     "name": "Nest High Yield Vault Aggregate Token",
     "address": "0x892DFf5257B39f7afB7803dd7C81E8ECDB6af3E8",
     "logoURI": "BASE_URL/assets/nyield.svg",
+    "decimals": 6,
+    "common": true,
+    "quote": "other"
+  },
+  {
+    "chainId": 98865,
+    "symbol": "nELIXIR",
+    "name": "Nest Elixir Token",
+    "address": "0x9fbC367B9Bb966a2A537989817A088AFCaFFDC4c",
+    "logoURI": "BASE_URL/assets/nelixir.svg",
     "decimals": 6,
     "common": true,
     "quote": "other"
