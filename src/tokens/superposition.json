@@ -66,7 +66,7 @@
     "symbol": "orbETH",
     "name": "Orbit Staked ETH",
     "address": "0xCeE9B58C2CDB01b8bf75a27e96Ec09Bf885ef55a",
-    "logoURI": "BASE_URL/assets/orbETH.png",
+    "logoURI": "BASE_URL/assets/orbETH.svg",
     "decimals": 18,
     "quote": "derived_native"
   }
