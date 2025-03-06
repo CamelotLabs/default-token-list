@@ -2186,5 +2186,23 @@
     "logoURI": "BASE_URL/assets/CLUTCH.png",
     "decimals": 18,
     "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "USDS",
+    "name": "USDS",
+    "address": "0x6491c05A82219b8D1479057361ff1654749b876b",
+    "logoURI": "BASE_URL/assets/usds.svg",
+    "decimals": 18,
+    "quote": "stable"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "sUSDS",
+    "name": "sUSDS",
+    "address": "0xdDb46999F8891663a8F2828d25298f70416d7610",
+    "logoURI": "BASE_URL/assets/susds.svg",
+    "decimals": 18,
+    "quote": "derived_stable"
   }
 ]
