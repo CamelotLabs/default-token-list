@@ -2194,7 +2194,7 @@
     "address": "0x6491c05A82219b8D1479057361ff1654749b876b",
     "logoURI": "BASE_URL/assets/sky-usds.svg",
     "decimals": 18,
-    "quote": "stable"
+    "quote": "derived_stable"
   },
   {
     "chainId": 42161,
