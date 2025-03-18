@@ -210,7 +210,7 @@
     "address": "0xf4D9235269a96aaDaFc9aDAe454a0618eBE37949",
     "logoURI": "BASE_URL/assets/weth.svg",
     "decimals": 18,
-    "quote": "native"
+    "quote": "other"
   },
      {
     "chainId": 33139,
@@ -218,8 +218,8 @@
     "name": "USDC",
     "address": "0xF1815bd50389c46847f0Bda824eC8da914045D14",
     "logoURI": "BASE_URL/assets/usdc.svg",
-    "decimals": 18,
-    "quote": "stable"
+    "decimals": 6,
+    "quote": "derived_stable"
   },
   {
     "chainId": 33139,
@@ -227,8 +227,8 @@
     "name": "USDT",
     "address": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
     "logoURI": "BASE_URL/assets/usdt.svg",
-    "decimals": 18,
-    "quote": "stable"
+    "decimals": 6,
+    "quote": "derived_stable"
   }
   
 ]
