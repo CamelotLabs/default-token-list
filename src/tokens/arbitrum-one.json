@@ -23,6 +23,15 @@
   },
   {
     "chainId": 42161,
+    "symbol": "pufETH",
+    "name": "pufETH",
+    "address": "0x37D6382B6889cCeF8d6871A8b60E667115eDDBcF",
+    "logoURI": "BASE_URL/assets/pufeth.png",
+    "decimals": 18,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 42161,
     "symbol": "ARB",
     "name": "Arbitrum",
     "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
