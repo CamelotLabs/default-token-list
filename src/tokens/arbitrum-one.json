@@ -2182,7 +2182,7 @@
     "chainId": 42161,
     "symbol": "CLUTCH",
     "name": "Clutch",
-    "address": "0xF4AcDE4D938844751f34659C67056f7e69dBE85a",
+    "address": "0x05905af7933f89280aB258919F0dFA056CeD8e43",
     "logoURI": "BASE_URL/assets/CLUTCH.png",
     "decimals": 18,
     "quote": "other"
@@ -2204,5 +2204,14 @@
     "logoURI": "BASE_URL/assets/sky-susds.svg",
     "decimals": 18,
     "quote": "derived_stable"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "MLK",
+    "name": "MiL.k",
+    "address": "0x374c5FB7979d5fDBAAd2d95409e235e5CBdfD43C",
+    "logoURI": "BASE_URL/assets/mlk.png",
+    "decimals": 8,
+    "quote": "other"
   }
 ]
