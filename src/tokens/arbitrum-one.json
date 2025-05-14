@@ -2218,7 +2218,7 @@
     "chainId": 42161,
     "symbol": "BRIX",
     "name": "BrightPool Exchange Token",
-    "address": "0xf65247b6ed3e7fdbac313959b3f62475fbb5f8e4",
+    "address": "0xF65247B6ED3E7FDbAC313959B3f62475FBB5F8E4",
     "logoURI": "BASE_URL/assets/brix.png",
     "decimals": 9,
     "quote": "other"
