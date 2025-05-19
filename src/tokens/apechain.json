@@ -229,6 +229,32 @@
     "logoURI": "BASE_URL/assets/usdt.svg",
     "decimals": 6,
     "quote": "derived_stable"
+  },
+    {
+    "chainId": 33139,
+    "symbol": "BOOP",
+    "name": "Boop",
+    "address": "0x13A7DeDb7169a17bE92B0E3C7C2315B46f4772B3",
+    "logoURI": "BASE_URL/assets/boop.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+    {
+    "chainId": 33139,
+    "symbol": "GG",
+    "name": "GG",
+    "address": "0x000000000026839b3f4181f2cF69336af6153b99",
+    "logoURI": "BASE_URL/assets/gg.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+    {
+    "chainId": 33139,
+    "symbol": "PEPE",
+    "name": "Pepe",
+    "address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00",
+    "logoURI": "BASE_URL/assets/pepe.jpg",
+    "decimals": 18,
+    "quote": "other"
   }
-  
 ]
