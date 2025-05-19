@@ -1,10 +1,10 @@
 [
   {
-    "chainId": 98865,
-    "symbol": "WETH",
-    "name": "Wrapped Ether",
-    "address": "0x626613B473F7eF65747967017C11225436EFaEd7",
-    "logoURI": "BASE_URL/assets/weth.svg",
+    "chainId": 98866,
+    "symbol": "WPLUME",
+    "name": "Wrapped Plume",
+    "address": "0xEa237441c92CAe6FC17Caaf9a7acB3f953be4bd1",
+    "logoURI": "BASE_URL/assets/plume.svg",
     "decimals": 18,
     "isWNative": true,
     "common": true,
@@ -12,7 +12,7 @@
     "quote": "native"
   },
   {
-    "chainId": 98865,
+    "chainId": 98866,
     "symbol": "pUSD",
     "name": "Plume USD",
     "address": "0xdddD73F5Df1F0DC31373357beAC77545dC5A6f3F",
@@ -23,63 +23,79 @@
     "quote": "stable"
   },
   {
-    "chainId": 98865,
+    "chainId": 98866,
     "symbol": "pETH",
-    "name": "Plume ETH",
-    "address": "0xD630fb6A07c9c723cf709d2DaA9B63325d0E0B73",
+    "name": "Plume Staked ETH",
+    "address": "0x39d1F90eF89C52dDA276194E9a832b484ee45574",
     "logoURI": "BASE_URL/assets/peth.svg",
     "decimals": 18,
     "common": true,
-    "quote": "derived_native"
+    "quote": "other"
   },
   {
-    "chainId": 98865,
+    "chainId": 98866,
+    "symbol": "WETH",
+    "name": "Wrapped Ether (Stargate)",
+    "address": "0xca59cA09E5602fAe8B629DeE83FfA819741f14be",
+    "logoURI": "BASE_URL/assets/weth.svg",
+    "decimals": 18,
+    "common": true,
+    "quote": "other"
+  },
+  {
+    "chainId": 98866,
     "symbol": "USDC.e",
-    "name": "Bridged USDC",
-    "address": "0x3938A812c54304fEffD266C7E2E70B48F9475aD6",
+    "name": "Bridged USDC (Stargate)",
+    "address": "0x78adD880A697070c1e765Ac44D65323a0DcCE913",
     "logoURI": "BASE_URL/assets/usdc.svg",
     "decimals": 6,
     "common": true,
     "quote": "stable"
   },
   {
-    "chainId": 98865,
-    "symbol": "nRWA",
-    "name": "Nest RWA Vault Aggregate Token",
-    "address": "0x81537d879ACc8a290a1846635a0cAA908f8ca3a6",
-    "logoURI": "BASE_URL/assets/nrwa.svg",
+    "chainId": 98866,
+    "symbol": "USDT",
+    "name": "Bridged stgUSDT",
+    "address": "0xda6087E69C51E7D31b6DBAD276a3c44703DFdCAd",
+    "logoURI": "BASE_URL/assets/usdt.svg",
     "decimals": 6,
     "common": true,
+    "quote": "stable"
+  },
+  {
+    "chainId": 98866,
+    "symbol": "nRWA",
+    "name": "Nest RWA",
+    "address": "0x11a8d8694b656112d9a94285223772F4aAd269fc",
+    "logoURI": "BASE_URL/assets/nrwa.svg",
+    "decimals": 6,
     "quote": "other"
   },
   {
-    "chainId": 98865,
+    "chainId": 98866,
     "symbol": "nTBILL",
-    "name": "Nest Treasuries Vault Aggregate Token",
+    "name": "Nest Treasuries Vault",
     "address": "0xE72Fe64840F4EF80E3Ec73a1c749491b5c938CB9",
     "logoURI": "BASE_URL/assets/ntbill.svg",
     "decimals": 6,
-    "common": true,
     "quote": "other"
   },
   {
-    "chainId": 98865,
-    "symbol": "nYIELD",
-    "name": "Nest High Yield Vault Aggregate Token",
-    "address": "0x892DFf5257B39f7afB7803dd7C81E8ECDB6af3E8",
-    "logoURI": "BASE_URL/assets/nyield.svg",
-    "decimals": 6,
-    "common": true,
-    "quote": "other"
-  },
-  {
-    "chainId": 98865,
+    "chainId": 98866,
     "symbol": "nELIXIR",
-    "name": "Nest Elixir Token",
+    "name": "Nest Elixir Vault",
     "address": "0x9fbC367B9Bb966a2A537989817A088AFCaFFDC4c",
     "logoURI": "BASE_URL/assets/nelixir.svg",
     "decimals": 6,
-    "common": true,
+    "quote": "other"
+  },
+  {
+    "chainId": 98866,
+    "symbol": "nBASIS",
+    "name": "Nest Basis",
+    "address": "0x11113Ff3a60C2450F4b22515cB760417259eE94B",
+    "logoURI": "BASE_URL/assets/nbasis.svg",
+    "decimals": 6,
     "quote": "other"
   }
 ]
