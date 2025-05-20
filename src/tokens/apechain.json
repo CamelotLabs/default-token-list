@@ -235,7 +235,7 @@
     "chainId": 33139,
     "symbol": "BOOP",
     "name": "Boop",
-    "address": "0x13A7DeDb7169a17bE92B0E3C7C2315B46f4772B3",
+    "address": "0x1BBBd56299717A9eAf90393157137Ca4A308d965",
     "logoURI": "BASE_URL/assets/boop.png",
     "decimals": 18,
     "quote": "other"
@@ -253,7 +253,7 @@
     "chainId": 33139,
     "symbol": "PEPE",
     "name": "Pepe",
-    "address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00",
+    "address": "0x46C41c67471bF859A4453512a7dc1B2431b45993",
     "logoURI": "BASE_URL/assets/pepe.jpg",
     "decimals": 18,
     "quote": "other"
