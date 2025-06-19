@@ -74,6 +74,15 @@
   },
   {
     "chainId": 42161,
+    "symbol": "plvHEDGE",
+    "name": "Plutus Hedge vault",
+    "address": "0x58BfC95a864e18E8F3041D2FCD3418f48393fE6A",
+    "logoURI": "BASE_URL/assets/plvhedge.png",
+    "decimals": 6,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
     "symbol": "BFR",
     "name": "Buffer Token",
     "address": "0x1A5B0aaF478bf1FDA7b934c76E7692D722982a6D",
