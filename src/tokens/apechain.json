@@ -271,7 +271,7 @@
     "chainId": 33139,
     "symbol": "NGT",
     "name": "Not a Gold Token",
-    "address": "0x72cddb64a72176b442bdfd9c8bb7968e652d8d1a",
+    "address": "0x72CddB64A72176B442bdfD9C8Bb7968E652d8D1a",
     "logoURI": "BASE_URL/assets/ngt.png",
     "decimals": 18,
     "quote": "other"
