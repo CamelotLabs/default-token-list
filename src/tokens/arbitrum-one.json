@@ -243,7 +243,7 @@
     "name":"US Nerite Dollar",
     "address": "0x4ecf61a6c2FaB8A047CEB3B3B263B401763e9D49",
     "logoURI": "BASE_URL/assets/USND.png",
-    "decimals": "18",
+    "decimals": 18,
     "quote": "derived_stable"
   },
   {
