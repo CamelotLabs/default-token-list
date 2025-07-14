@@ -1,6 +1,15 @@
 [
   {
     "chainId": 33139,
+    "symbol": "PNutz",
+    "name": "Geez PNutz",
+    "address": "0x54A70516e9c0223F4a92bE3a4832a06f546e783B",
+    "logoURI": "BASE_URL/assets/pnutz.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 33139,
     "symbol": "WAPE",
     "name": "Wrapped ApeCoin",
     "address": "0x48b62137EdfA95a428D35C09E44256a739F6B557",
