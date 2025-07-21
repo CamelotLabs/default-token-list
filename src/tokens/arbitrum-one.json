@@ -2286,5 +2286,14 @@
     "logoURI": "BASE_URL/assets/vDOT.svg",
     "decimals": 18,
     "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "ZELEBOBA",
+    "name": "ZELEBOBA",
+    "address": "0xf0D43f46Cea02bBb5E616bF6d795D4f8719cD80d",
+    "logoURI": "BASE_URL/assets/zeleboba.png",
+    "decimals": 9,
+    "quote": "other"
   }
 ]
