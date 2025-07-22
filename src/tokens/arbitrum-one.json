@@ -2300,7 +2300,7 @@
     "chainId": 42161,
     "symbol": "RZR",
     "name": "Rezerve.money",
-    "address": "0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5",
+    "address": "0xb4444468e444f89e1c2CAc2F1D3ee7e336cBD1f5",
     "logoURI": "BASE_URL/assets/rezerve.png",
     "decimals": 18,
     "quote": "other"
