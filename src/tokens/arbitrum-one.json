@@ -2314,4 +2314,13 @@
     "decimals": 9,
     "quote": "other"
   }
+  {
+    "chainId": 42161,
+    "symbol": "ILOCK",
+    "name": "Interlock",
+    "address": "0xcf1D7D1a7bBF5D11CCFe717FC6A9A45C8dD9c7bE",
+    "logoURI": "BASE_URL/assets/ilock.png",
+    "decimals": 18,
+    "quote": "other",
+  }
 ]
