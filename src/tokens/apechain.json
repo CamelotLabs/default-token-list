@@ -284,5 +284,14 @@
     "logoURI": "BASE_URL/assets/pnutz.png",
     "decimals": 18,
     "quote": "other"
+  },  
+  {
+    "chainId": 33139,
+    "symbol": "BACON",
+    "name": "Tontachi Apeton Bacon",
+    "address": "0xc13f5a008cd1ef2fe3dc36d5fba2969a14bf661a",
+    "logoURI": "BASE_URL/assets/bacon.svg",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
