@@ -284,7 +284,7 @@
     "logoURI": "BASE_URL/assets/pnutz.png",
     "decimals": 18,
     "quote": "other"
-  },  
+  },
   {
     "chainId": 33139,
     "symbol": "BACON",
@@ -292,6 +292,15 @@
     "address": "0xC13f5A008Cd1ef2fe3dC36d5FbA2969A14bf661A",
     "logoURI": "BASE_URL/assets/bacon.svg",
     "decimals": 6,
+    "quote": "other"
+  },
+  {
+    "chainId": 33139,
+    "symbol": "GMI",
+    "name": "GonnaMakeIt",
+    "address": "0x044e874f23f9a7e5dad696554a116c4bb62fecb7",
+    "logoURI": "BASE_URL/assets/GMI.svg",
+    "decimals": 18,
     "quote": "other"
   }
 ]
