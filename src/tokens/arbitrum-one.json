@@ -2695,7 +2695,7 @@
     "chainId": 42161,
     "symbol": "GIZA",
     "name": "Giza",
-    "address": "0x590830dFDf9A3F68aFCDdE2694773dEBDF267774",
+    "address": "0xa4eAEC0b1d564061a4951816fD5B1ba8CFBC425c",
     "logoURI": "BASE_URL/assets/giza.svg",
     "decimals": 18,
     "quote": "other"
