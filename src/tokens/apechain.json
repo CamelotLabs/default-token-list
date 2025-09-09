@@ -294,6 +294,7 @@
     "decimals": 6,
     "quote": "other"
   },
+  {
     "symbol": "ZENKO",
     "name": "Zenko Protocol",
     "address": "0x88A4a93993a458f1aE6b777358c86781F86998E3",
