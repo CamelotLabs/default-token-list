@@ -106,7 +106,9 @@
     "logoURI": "BASE_URL/assets/cmumami.svg",
     "decimals": 9,
     "quote": "other",
-    "intermediaryTokens": ["0x1622bF67e6e5747b81866fE0b85178a93C7F86e3"]
+    "intermediaryTokens": [
+      "0x1622bF67e6e5747b81866fE0b85178a93C7F86e3"
+    ]
   },
   {
     "chainId": 42161,
@@ -405,7 +407,9 @@
     "logoURI": "BASE_URL/assets/plsdpx.svg",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": ["0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55"]
+    "intermediaryTokens": [
+      "0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55"
+    ]
   },
   {
     "chainId": 42161,
@@ -892,7 +896,9 @@
     "logoURI": "BASE_URL/assets/esrdnt.svg",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": ["0x3082CC23568eA640225c2467653dB90e9250AaA0"]
+    "intermediaryTokens": [
+      "0x3082CC23568eA640225c2467653dB90e9250AaA0"
+    ]
   },
   {
     "chainId": 42161,
@@ -976,7 +982,9 @@
     "logoURI": "BASE_URL/assets/steur.svg",
     "decimals": 18,
     "quote": "derived_stable",
-    "intermediaryTokens": ["0x004626A008B1aCdC4c74ab51644093b155e59A23"]
+    "intermediaryTokens": [
+      "0x004626A008B1aCdC4c74ab51644093b155e59A23"
+    ]
   },
   {
     "chainId": 42161,
@@ -1259,7 +1267,9 @@
     "logoURI": "BASE_URL/assets/d2.jpg",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": ["0x1c17a39B156189BF40905425170a3Ff62fb650DA"]
+    "intermediaryTokens": [
+      "0x1c17a39B156189BF40905425170a3Ff62fb650DA"
+    ]
   },
   {
     "chainId": 42161,
@@ -1386,7 +1396,9 @@
     "logoURI": "BASE_URL/assets/xd2.svg",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": ["0xed7f000eE335B8199b004cCA1c6f36d188CF6cb8"]
+    "intermediaryTokens": [
+      "0xed7f000eE335B8199b004cCA1c6f36d188CF6cb8"
+    ]
   },
   {
     "chainId": 42161,
@@ -1441,7 +1453,9 @@
     "logoURI": "BASE_URL/assets/wstlink.png",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": ["0xf97f4df75117a78c1A5a0DBb814Af92458539FB4"]
+    "intermediaryTokens": [
+      "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4"
+    ]
   },
   {
     "chainId": 42161,
@@ -1687,7 +1701,9 @@
     "logoURI": "BASE_URL/assets/eusd.png",
     "decimals": 18,
     "quote": "derived_stable",
-    "intermediaryTokens": ["0x96a993f06951B01430523D0D5590192d650EBf3e"]
+    "intermediaryTokens": [
+      "0x96a993f06951B01430523D0D5590192d650EBf3e"
+    ]
   },
   {
     "chainId": 42161,
@@ -1715,7 +1731,9 @@
     "logoURI": "BASE_URL/assets/knox.png",
     "decimals": 18,
     "quote": "derived_stable",
-    "intermediaryTokens": ["0x96a993f06951B01430523D0D5590192d650EBf3e"]
+    "intermediaryTokens": [
+      "0x96a993f06951B01430523D0D5590192d650EBf3e"
+    ]
   },
   {
     "chainId": 42161,
@@ -1860,7 +1878,9 @@
     "logoURI": "BASE_URL/assets/lusdc.svg",
     "decimals": 8,
     "quote": "other",
-    "intermediaryTokens": ["0xF19547f9ED24aA66b03c3a552D181Ae334FBb8DB"]
+    "intermediaryTokens": [
+      "0xF19547f9ED24aA66b03c3a552D181Ae334FBb8DB"
+    ]
   },
   {
     "chainId": 42161,
@@ -1870,7 +1890,9 @@
     "logoURI": "BASE_URL/assets/leth.svg",
     "decimals": 8,
     "quote": "other",
-    "intermediaryTokens": ["0xF19547f9ED24aA66b03c3a552D181Ae334FBb8DB"]
+    "intermediaryTokens": [
+      "0xF19547f9ED24aA66b03c3a552D181Ae334FBb8DB"
+    ]
   },
   {
     "chainId": 42161,
@@ -2006,7 +2028,9 @@
     "logoURI": "BASE_URL/assets/mgrail.png",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": ["0x3d9907F9a368ad0a51Be60f7Da3b97cf940982D8"]
+    "intermediaryTokens": [
+      "0x3d9907F9a368ad0a51Be60f7Da3b97cf940982D8"
+    ]
   },
   {
     "chainId": 42161,
@@ -2025,7 +2049,9 @@
     "logoURI": "BASE_URL/assets/gloop.jpg",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": ["0xAad4187a81689AF72d91966c8119756E425cD7CF"]
+    "intermediaryTokens": [
+      "0xAad4187a81689AF72d91966c8119756E425cD7CF"
+    ]
   },
   {
     "chainId": 42161,
@@ -2062,7 +2088,9 @@
     "logoURI": "BASE_URL/assets/susdx.svg",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": ["0xf3527ef8dE265eAa3716FB312c12847bFBA66Cef"]
+    "intermediaryTokens": [
+      "0xf3527ef8dE265eAa3716FB312c12847bFBA66Cef"
+    ]
   },
   {
     "chainId": 42161,
@@ -2108,7 +2136,9 @@
     "logoURI": "BASE_URL/assets/overlord.png",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": ["0x13ad3f1150db0e1e05fd32bDEeB7C110ee023de6"],
+    "intermediaryTokens": [
+      "0x13ad3f1150db0e1e05fd32bDEeB7C110ee023de6"
+    ],
     "buyTax": 100,
     "sellTax": 100
   },
@@ -2120,7 +2150,9 @@
     "logoURI": "BASE_URL/assets/gameboi.png",
     "decimals": 18,
     "quote": "other",
-    "intermediaryTokens": ["0x13ad3f1150db0e1e05fd32bDEeB7C110ee023de6"],
+    "intermediaryTokens": [
+      "0x13ad3f1150db0e1e05fd32bDEeB7C110ee023de6"
+    ],
     "buyTax": 100,
     "sellTax": 100
   },
