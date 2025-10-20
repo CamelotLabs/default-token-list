@@ -2727,7 +2727,7 @@
     "decimals": 6,
     "quote": "other"
   },
-   {
+  {
     "chainId": 42161,
     "symbol": "Seed",
     "name": "Seed",
