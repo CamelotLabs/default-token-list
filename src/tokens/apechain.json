@@ -1,6 +1,24 @@
 [
   {
     "chainId": 33139,
+    "symbol": "PGOLD",
+    "name": "Pleasing Gold",
+    "address": "0x64aE250E044688DdD04262F17DacA23C28d241C2",
+    "logoURI": "BASE_URL/assets/pgold.svg",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 33139,
+    "symbol": "PUSD",
+    "name": "Pleasing USD",
+    "address": "0x764387ae46fc504b0682bC1Ad31963250007E58E",
+    "logoURI": "BASE_URL/assets/pleasingusd.svg",
+    "decimals": 18,
+    "quote": "derived_stable"
+  },
+  {
+    "chainId": 33139,
     "symbol": "WAPE",
     "name": "Wrapped ApeCoin",
     "address": "0x48b62137EdfA95a428D35C09E44256a739F6B557",
