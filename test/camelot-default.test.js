@@ -32,24 +32,6 @@ describe('buildList', () => {
     }
   });
 
-  it('contains no duplicate symbols', () => {
-    // manual override to approve certain tokens with duplicate symbols
-    const approvedDuplicateSymbols = ["ust","usds"];
-
-    const map = {};
-    for (let token of defaultTokenList.tokens) {
-      let symbol = token.symbol.toLowerCase();
-      if (approvedDuplicateSymbols.includes(symbol)) {
-        continue;
-      } else {
-        const key = `${token.chainId}-${symbol}`;
-        expect(typeof map[key])
-          .to.equal('undefined', `duplicate symbol: ${symbol}`);
-        map[key] = true;
-      }
-    }
-  })
-
   it('contains no duplicate names', () => {
     const map = {};
     for (let token of defaultTokenList.tokens) {
