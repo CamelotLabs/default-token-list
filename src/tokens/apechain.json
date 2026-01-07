@@ -332,8 +332,8 @@
   },
   {
     "chainId": 33139,
-    "symbol": "LAGMI",
-    "name": "LeGods",
+    "symbol": "$LE",
+    "name": "LAGMI",
     "address": "0x1f7ef975E14d3d9d8D0592E5040635026F4851e0",
     "logoURI": "https://raw.githubusercontent.com/legodsnft-gif/default-token-list/main/src/assets/legods.png",
     "decimals": 18,
