@@ -237,6 +237,7 @@
     "address": "0xF1815bd50389c46847f0Bda824eC8da914045D14",
     "logoURI": "BASE_URL/assets/usdc.svg",
     "decimals": 6,
+    "common": true,
     "quote": "derived_stable"
   },
   {
