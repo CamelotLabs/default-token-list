@@ -335,7 +335,7 @@
     "symbol": "$LE",
     "name": "LAGMI",
     "address": "0x1f7ef975E14d3d9d8D0592E5040635026F4851e0",
-    "logoURI": "https://raw.githubusercontent.com/legodsnft-gif/default-token-list/main/src/assets/legods.png",
+    "logoURI": "BASE_URL/assets/legodslogo.png",
     "decimals": 18,
     "quote": "other"
   }
