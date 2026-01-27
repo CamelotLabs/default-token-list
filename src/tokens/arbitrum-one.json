@@ -2771,5 +2771,14 @@
     "logoURI": "BASE_URL/assets/GMI.svg",
     "decimals": 18,
     "quote": "other"
-  }  
+  },
+  {
+    "chainId": 42161,
+    "symbol": "cyWBTC.pyth",
+    "name": "Cyclo cyWBTC.pyth (Pyth oracle)",
+    "address": "0x229917ac2842Eaab42060a1A9213CA78e01b572a",
+    "logoURI": "BASE_URL/assets/cyWBTC.png",
+    "decimals": 8,
+    "quote": "other"
+  }
 ]
