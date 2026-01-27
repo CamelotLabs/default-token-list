@@ -2774,6 +2774,15 @@
   },
   {
     "chainId": 42161,
+    "symbol": "cyWETH.pyth",
+    "name": "Cyclo cyWETH.pyth (Pyth oracle)",
+    "address": "0x28C7747D7eA25ED3dDCd075c6CCC3634313a0F59",
+    "logoURI": "BASE_URL/assets/cyWETH.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 42161,
     "symbol": "cyARB.pyth",
     "name": "Cyclo cyARB.pyth (Pyth oracle)",
     "address": "0xc83563177290bdd391DB56553Ed828413b7689bc",
