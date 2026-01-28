@@ -2747,15 +2747,6 @@
   },
   {
     "chainId": 42161,
-    "symbol": "MOLE",
-    "name": "Molecular Token",
-    "address": "0x19d0899464DEa847ad0A5B7D42f3ce0592542F9A",
-    "logoURI": "BASE_URL/assets/mole.svg",
-    "decimals": 18,
-    "quote": "other"
-  },
-  {
-    "chainId": 42161,
     "symbol": "EDU",
     "name": "Open Campus",
     "address": "0xf8173a39c56a554837C4C7f104153A005D284D11",
