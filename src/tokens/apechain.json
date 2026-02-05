@@ -4,7 +4,7 @@
     "symbol": "WAPE",
     "name": "Wrapped ApeCoin",
     "address": "0x48b62137EdfA95a428D35C09E44256a739F6B557",
-    "logoURI": "BASE_URL/assets/ape.svg",
+    "logoURI": "BASE_URL/assets/ape.png",
     "decimals": 18,
     "isWNative": true,
     "common": true,
