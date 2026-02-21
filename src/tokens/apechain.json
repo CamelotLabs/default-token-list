@@ -31,6 +31,15 @@
   },
   {
     "chainId": 33139,
+    "symbol": "pufETH",
+    "name": "pufETH",
+    "address": "0x6234E5ef39B12EFdFcbd99dd7F452F27F3fEAE3b",
+    "logoURI": "BASE_URL/assets/pufeth.png",
+    "decimals": 18,
+    "quote": "derived_native"
+  },
+  {
+    "chainId": 33139,
     "symbol": "apeUSD",
     "name": "Ape USD",
     "address": "0xA2235d059F80e176D931Ef76b6C51953Eb3fBEf4",
