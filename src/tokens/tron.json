@@ -1,0 +1,14 @@
+{
+  "chainId": 728126428,
+  "symbol": "DXBDT",
+  "name": "DXBDT Stablecoin",
+  "address": "TCfrbnCdJo9TMRBN8xWSRAwM8M1Xoi3PBY",
+  "logoURI": "https://dxbdt.com/assets/DXBDT.svg",
+  "decimals": 9,
+  "quote": "stable",
+  "extensions": {
+    "website": "https://dxbdt.com",
+    "explorer": "https://tronscan.org/#/token20/TCfrbnCdJo9TMRBN8xWSRAwM8M1Xoi3PBY",
+    "liquidityPool": "https://sunswap.com/#/scan/detail/trx/TCfrbnCdJo9TMRBN8xWSRAwM8M1Xoi3PBY"
+  }
+}
