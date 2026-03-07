@@ -3,7 +3,7 @@
   "symbol": "DXBDT",
   "name": "DXBDT Stablecoin",
   "address": "TCfrbnCdJo9TMRBN8xWSRAwM8M1Xoi3PBY",
-  "logoURI": "BASE_URL/assets/assets/DXBDT.svg",
+  "logoURI": "BASE_URL/assets/DXBDT.svg",
   "decimals": 9,
   "quote": "stable",
   "extensions": {
