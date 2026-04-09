@@ -340,4 +340,23 @@
     "decimals": 18,
     "quote": "other"
   }
+
+    {
+    "chainId": 33139,
+    "symbol": "$JMY",
+    "name": "Jimmy Art",
+    "address": "0xB85E1fb5Ab746a1161025Bdd609BA3d5A897e23b",
+    "logoURI": "https://anvil.clutch.market/market-gvc.png",
+    "decimals": 18,
+    "quote": "other"
+  }
+
+    "chainId": 33139,
+    "symbol": "$MONO",
+    "name": "Mono",
+    "address": "0x5Ee8ad3ED7f49DDa07F3Fe84b3D12370c4F2E665",
+    "logoURI": "https://monosmc.github.io/monos/$MONO.png",
+    "decimals": 18,
+    "quote": "other"
+]
 ]
