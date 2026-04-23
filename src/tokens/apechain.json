@@ -346,7 +346,7 @@
     "symbol": "$JMY",
     "name": "Jimmy Art",
     "address": "0xB85E1fb5Ab746a1161025Bdd609BA3d5A897e23b",
-    "logoURI": "https://anvil.clutch.market/market-gvc.png",
+    "logoURI": "https://drive.google.com/file/d/12otjGjTJJv7puz2bfk1NiYc6byzkFgF-/view",
     "decimals": 18,
     "quote": "other"
   }
@@ -355,7 +355,7 @@
     "symbol": "$MONO",
     "name": "Mono",
     "address": "0x5Ee8ad3ED7f49DDa07F3Fe84b3D12370c4F2E665",
-    "logoURI": "https://monosmc.github.io/monos/$MONO.png",
+    "logoURI": "https://raw.githubusercontent.com/monosmc/monos/main/mono.png",
     "decimals": 18,
     "quote": "other"
 ]
