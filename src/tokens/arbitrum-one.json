@@ -2789,5 +2789,14 @@
     "logoURI": "BASE_URL/assets/cyWBTC.png",
     "decimals": 8,
     "quote": "other"
+  },
+  {
+    "chainId": 42161,
+    "symbol": "EV",
+    "name": "Everything",
+    "address": "0xE7E7E741C23a4767831A56A8C99F522c5aC1E7E7",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/39394.png",
+    "decimals": 18,
+    "quote": "other"
   }
 ]
