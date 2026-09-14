@@ -1,6 +1,15 @@
 [
   {
     "chainId": 33139,
+    "symbol": "SHARDS",
+    "name": "Shards",
+    "address": "0x11a15FAA320e494132ee5e79440aF0ab49E6150C",
+    "logoURI": "BASE_URL/assets/shards.png",
+    "decimals": 18,
+    "quote": "other"
+  },
+  {
+    "chainId": 33139,
     "symbol": "PGOLD",
     "name": "Pleasing Gold",
     "address": "0x64aE250E044688DdD04262F17DacA23C28d241C2",
